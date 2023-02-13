@@ -58,5 +58,39 @@
         "name": "instagram"
       }
     ]
-  }
+  },
+  "logiciel": [
+    {
+      "icon": "/src/assets/icons/logiciel/photoshop.svg",
+      "name": "Photoshop"
+    },
+    {
+      "icon": "/src/assets/icons/logiciel/adobeIllustrator.svg",
+      "name": "Illustrator"
+    },
+    {
+      "icon": "/src/assets/icons/logiciel/blender.svg",
+      "name": "Blender"
+    },
+    {
+      "icon": "/src/assets/icons/logiciel/afterEffect.svg",
+      "name": "After effect"
+    },
+    {
+      "icon": "/src/assets/icons/logiciel/adobeXd.svg",
+      "name": "Adobe XD"
+    },
+    {
+      "icon": "/src/assets/icons/logiciel/figma.svg",
+      "name": "Figma"
+    },
+    {
+      "icon": "/src/assets/icons/logiciel/premierePro.svg",
+      "name": "Première Pro"
+    },
+    {
+      "icon": "/src/assets/icons/logiciel/adobeIdesing.svg",
+      "name": "Adobe Id"
+    }
+  ]
 }

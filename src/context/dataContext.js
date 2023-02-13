@@ -6,6 +6,7 @@ const DataContext = createContext({
   apropos: {
     information: data.informations,
     parcours: data.parcours,
+    logiciel: data.logiciel
   },
   presentation: data.presentation
 });

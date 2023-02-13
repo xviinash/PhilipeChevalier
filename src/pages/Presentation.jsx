@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import DataContext from "../context/dataContext";
+import IconComponant from "../components/IconComponant";
 
 const Presentation = () => {
     const {presentation} = useContext(DataContext);
@@ -15,8 +16,9 @@ const Presentation = () => {
             </div>
             <img src={presentation.photo} alt={presentation.prenom} />
             <div>
-                <img src={presentation.resaux[0].icon} alt={presentation.resaux[0].name} />
-                <img src={presentation.resaux[1].icon} alt={presentation.resaux[1].name} />
+                {presentation.resaux.map((e, index) => (
+                    <IconComponant icon={e} key={index}/>
+                ))}
             </div>
         </section>
     );
