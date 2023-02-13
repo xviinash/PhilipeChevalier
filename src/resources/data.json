@@ -1,0 +1,62 @@
+{
+  "parcours": [
+    {
+      "diplome": "Brevet des collèges",
+      "mention": "bien",
+      "annees": {
+        "debut": 2013,
+        "fin": 2017
+      }
+    },
+    {
+      "diplome": "Baccalauréat STD2A",
+      "mention": "bien",
+      "annees": {
+        "debut": 2017,
+        "fin": 2020
+      }
+    },
+    {
+      "diplome": " DNMADe Design Graphique",
+      "mention": "en cours",
+      "annees": {
+        "debut": 2020,
+        "fin": 2023
+      }
+    }
+  ],
+  "informations": [
+    "Actuellement agé de vingt ans, j’étudie le graphisme à l’ésaat de Roubaix pour être titulaire d’un DNMADe (BAC +3). Passioné depuis l’enfance par le dessin et l’informatique, je commençai à produire des logos et illustrations digitales très tôt vers l’âge de douze ans.",
+    "Parallellement au graphisme, ma curiosité m’oriente dans d’autres moyens de création numérique tels la modélisation 3D ou plus récemment le montage de clips musicaux.",
+    "Pour conclure, je passe beaucoup de temps devant l’écran et je remédie à cela via la pratique de la peinture traditionnelle et par une activité physique régulière."
+  ],
+  "contact": [
+    {
+      "icon": "/src/assets/icons/contact/mail.svg",
+      "name": "philippe2002chevalier@gmail.com"
+    },
+    {
+      "icon": "/src/assets/icons/contact/behance.svg",
+      "name": "@xviinash"
+    },
+    {
+      "icon": "/src/assets/icons/contact/instagram.svg",
+      "name": "@xviinash"
+    }
+  ],
+  "presentation": {
+    "photo": "src/assets/images/portrait.png",
+    "nom": "Chevalier",
+    "prenom": "Philippe",
+    "resaux": [
+      {
+        "icon": "/src/assets/icons/contact/behance.svg",
+        "name": "behance"
+      },
+      {
+        "icon": "/src/assets/icons/contact/instagram.svg",
+        "name": "instagram"
+      }
+    ]
+  }
+}
