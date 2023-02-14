@@ -6,15 +6,17 @@ const Presentation = () => {
     const {presentation} = useContext(DataContext);
 
     return (
-        <section>
-            <div>
+        <section id="presentation_section">
+            <div id="phrase_general">
                 <div>
                     Bonjour,
                     Je suis <span>{presentation.prenom} {presentation.nom}</span>
                 </div>
                 <div>CV</div>
             </div>
-            <img src={presentation.photo} alt={presentation.prenom} />
+            <div>
+                <img src={presentation.photo} alt={presentation.prenom} />
+            </div>
             <div>
                 {presentation.resaux.map((e, index) => (
                     <IconComponant icon={e} key={index}/>

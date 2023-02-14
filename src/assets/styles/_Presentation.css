@@ -1,0 +1,8 @@
+#presentation_section {
+    flex-direction: row;
+    align-items: center;
+}
+
+#phrase_general {
+    background: #e10303;
+}
