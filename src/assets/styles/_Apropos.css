@@ -1,0 +1,44 @@
+.parts_a_propos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25%;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+#logiciel_container {
+  height: 20%;
+}
+
+.contenu_a_propos {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#parcours_contain {
+  justify-content: space-between;
+  width: 80%;
+}
+
+#logiciel_contain {
+  width: 45%;
+  justify-content: space-around;
+}
+
+#paragraphe_contain {
+  flex-direction: column;
+  width: 90%;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.diplome_container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

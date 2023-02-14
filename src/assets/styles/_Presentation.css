@@ -1,8 +1,10 @@
 #presentation_section {
-    flex-direction: row;
-    align-items: center;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #phrase_general {
-    background: #e10303;
+  background: #e10303;
+  width: 35%;
 }

@@ -10,30 +10,34 @@ const Apropos = () => {
   return (
     <section>
       <h2>A Propos</h2>
-      <div>
-        <div>
+      <div className="parts_a_propos">
+        <div className="icon_section">
           <img src="src/assets/icons/sections/diplome.svg" alt="diplome" />
         </div>
-        {apropos.parcours.map((e, index) => (
-          <DiplomeCompnent parcours={e} key={index} />
-        ))}
+        <div className="contenu_a_propos" id="parcours_contain">
+          {apropos.parcours.map((e, index) => (
+            <DiplomeCompnent parcours={e} key={index} />
+          ))}
+        </div>
       </div>
-      <div>
-        <div>
+      <div className="parts_a_propos" id="logiciel_container">
+        <div className="icon_section">
           <img src="src/assets/icons/sections/parametre.svg" alt="parametre" />
         </div>
-        {apropos.logiciel.map((e, index) => (
-          <IconComponant icon={e} key={index} />
-        ))}
+        <div className="contenu_a_propos" id="logiciel_contain">
+          {apropos.logiciel.map((e, index) => (
+            <IconComponant icon={e} key={index} />
+          ))}
+        </div>
       </div>
-      <div>
-        <div>
+      <div className="parts_a_propos">
+        <div className="icon_section">
           <img
             src="src/assets/icons/sections/information.svg"
             alt="information"
           />
         </div>
-        <div>
+        <div className="contenu_a_propos" id="paragraphe_contain">
           {apropos.information.map((e, index) => (
             <ParagrapheComponant contain={e} key={index} />
           ))}

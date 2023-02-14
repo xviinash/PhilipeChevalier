@@ -2,7 +2,7 @@
   "parcours": [
     {
       "diplome": "Brevet des collèges",
-      "mention": "bien",
+      "mention": "mention bien",
       "annees": {
         "debut": 2013,
         "fin": 2017
@@ -10,7 +10,7 @@
     },
     {
       "diplome": "Baccalauréat STD2A",
-      "mention": "bien",
+      "mention": "mention bien",
       "annees": {
         "debut": 2017,
         "fin": 2020
