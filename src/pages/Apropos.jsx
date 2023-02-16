@@ -12,7 +12,7 @@ const Apropos = () => {
       <h2>A Propos</h2>
       <div className="parts_a_propos">
         <div className="icon_section">
-          <img src="src/assets/icons/sections/diplome.svg" alt="diplome" />
+          <img src="/assets/icons/sections/diplome.svg" alt="diplome" />
         </div>
         <div className="contenu_a_propos" id="parcours_contain">
           {apropos.parcours.map((e, index) => (
@@ -22,7 +22,7 @@ const Apropos = () => {
       </div>
       <div className="parts_a_propos" id="logiciel_container">
         <div className="icon_section">
-          <img src="src/assets/icons/sections/parametre.svg" alt="parametre" />
+          <img src="/assets/icons/sections/parametre.svg" alt="parametre" />
         </div>
         <div className="contenu_a_propos" id="logiciel_contain">
           {apropos.logiciel.map((e, index) => (
@@ -33,7 +33,7 @@ const Apropos = () => {
       <div className="parts_a_propos">
         <div className="icon_section">
           <img
-            src="src/assets/icons/sections/information.svg"
+            src="/assets/icons/sections/information.svg"
             alt="information"
           />
         </div>

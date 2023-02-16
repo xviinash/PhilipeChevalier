@@ -32,64 +32,64 @@
   ],
   "contact": [
     {
-      "icon": "/src/assets/icons/contact/mail.svg",
+      "icon": "/assets/icons/contact/mail.svg",
       "name": "philippe2002chevalier@gmail.com"
     },
     {
-      "icon": "/src/assets/icons/contact/behance.svg",
+      "icon": "/assets/icons/contact/behance.svg",
       "name": "@xviinash"
     },
     {
-      "icon": "/src/assets/icons/contact/instagram.svg",
+      "icon": "/assets/icons/contact/instagram.svg",
       "name": "@xviinash"
     }
   ],
   "presentation": {
-    "photo": "src/assets/images/portrait.png",
+    "photo": "/assets/images/portrait.png",
     "nom": "Chevalier",
     "prenom": "Philippe",
     "resaux": [
       {
-        "icon": "/src/assets/icons/contact/behance.svg",
+        "icon": "/assets/icons/contact/behance.svg",
         "name": "behance"
       },
       {
-        "icon": "/src/assets/icons/contact/instagram.svg",
+        "icon": "/assets/icons/contact/instagram.svg",
         "name": "instagram"
       }
     ]
   },
   "logiciel": [
     {
-      "icon": "/src/assets/icons/logiciel/photoshop.svg",
+      "icon": "/assets/icons/logiciel/photoshop.svg",
       "name": "Photoshop"
     },
     {
-      "icon": "/src/assets/icons/logiciel/adobeIllustrator.svg",
+      "icon": "/assets/icons/logiciel/adobeIllustrator.svg",
       "name": "Illustrator"
     },
     {
-      "icon": "/src/assets/icons/logiciel/blender.svg",
+      "icon": "/assets/icons/logiciel/blender.svg",
       "name": "Blender"
     },
     {
-      "icon": "/src/assets/icons/logiciel/afterEffect.svg",
+      "icon": "/assets/icons/logiciel/afterEffect.svg",
       "name": "After effect"
     },
     {
-      "icon": "/src/assets/icons/logiciel/adobeXd.svg",
+      "icon": "/assets/icons/logiciel/adobeXd.svg",
       "name": "Adobe XD"
     },
     {
-      "icon": "/src/assets/icons/logiciel/figma.svg",
+      "icon": "/assets/icons/logiciel/figma.svg",
       "name": "Figma"
     },
     {
-      "icon": "/src/assets/icons/logiciel/premierePro.svg",
+      "icon": "/assets/icons/logiciel/premierePro.svg",
       "name": "Première Pro"
     },
     {
-      "icon": "/src/assets/icons/logiciel/adobeIdesing.svg",
+      "icon": "/assets/icons/logiciel/adobeIdesing.svg",
       "name": "Adobe Id"
     }
   ]
