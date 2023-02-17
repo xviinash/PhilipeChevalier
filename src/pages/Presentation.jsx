@@ -9,10 +9,10 @@ const Presentation = () => {
         <section id="presentation_section">
             <div id="phrase_general">
                 <div>
-                    Bonjour,
-                    Je suis <span>{presentation.prenom} {presentation.nom}</span>
+                    Bonjour, <br/>
+                    Je suis <span>{presentation.prenom} {presentation.nom}</span>,
+                    <p id="activite_presentation">{presentation.activite}</p>
                 </div>
-                <div>CV</div>
             </div>
             <div>
                 <img src={presentation.photo} alt={presentation.prenom} />

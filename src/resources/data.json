@@ -48,6 +48,7 @@
     "photo": "/assets/images/portrait.png",
     "nom": "Chevalier",
     "prenom": "Philippe",
+    "activite":"Actuellement étudiant en graphisme à l’ésaat.",
     "resaux": [
       {
         "icon": "/assets/icons/contact/behance.svg",
