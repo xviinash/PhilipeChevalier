@@ -28,12 +28,16 @@
 }
 
 #paragraphe_contain {
+  margin-top: 10px;
   flex-direction: column;
   width: 90%;
+  text-align: justify;
+  font-size: 15px;
 }
 
 h3 {
   font-weight: bold;
+  font-size: 15px;
 }
 
 .diplome_container {
@@ -41,4 +45,8 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.diplome_container p{
+  font-size: 13px;
 }
