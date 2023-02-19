@@ -5,7 +5,7 @@ import DataContext from "../context/dataContext";
 const Contact = () => {
   const { contact } = useContext(DataContext);
   return (
-    <section>
+    <section id="contact_section">
       <div id="contact_container">
         <h2>Contact</h2>
         <div>

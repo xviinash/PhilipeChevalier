@@ -8,7 +8,7 @@ const Apropos = () => {
   const { apropos } = useContext(DataContext);
 
   return (
-    <section>
+    <section id="apropos_section">
       <h2>A Propos</h2>
       <div className="parts_a_propos">
         <div className="icon_section">

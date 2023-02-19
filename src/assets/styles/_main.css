@@ -3,11 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  text-decoration: none;
+  text-decoration: inherit;
+  color: inherit;
 }
 
 html {
   height: 100%;
+  user-select: none;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -34,5 +38,4 @@ body {
 #root {
   margin: 0 auto;
   max-width: 1200px;
-  font-family: 'Poppins', sans-serif;
 }

@@ -9,7 +9,7 @@ const Portefolio = () => {
   }, []);
 
   return (
-    <section>
+    <section id="portefolio_section">
       <h2>Le Portefolio</h2>
       <div id="project_container">
         <div id="presentation_project">
