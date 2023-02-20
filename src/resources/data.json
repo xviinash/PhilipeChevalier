@@ -33,15 +33,18 @@
   "contact": [
     {
       "icon": "/assets/icons/contact/mail.svg",
-      "name": "philippe2002chevalier@gmail.com"
+      "name": "philippe2002chevalier@gmail.com",
+      "lien": "mailto:philippe2002chevalier@gmail.com"
     },
     {
       "icon": "/assets/icons/contact/behance.svg",
-      "name": "@xviinash"
+      "name": "@xviinash",
+      "lien": "https://www.behance.net/xviinash"
     },
     {
       "icon": "/assets/icons/contact/instagram.svg",
-      "name": "@xviinash"
+      "name": "@xviinash",
+      "lien": "https://www.instagram.com/xviinash/"
     }
   ],
   "presentation": {

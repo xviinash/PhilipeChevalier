@@ -32,7 +32,12 @@
   display: none;
 }
 
-#presentation_project img {
+#presentation_project a {
   border-radius: 25px;
+  overflow: hidden;
   width: 30%;
+}
+
+#presentation_project a img {
+  width: 100%;
 }

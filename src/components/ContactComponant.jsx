@@ -4,7 +4,7 @@ const ContactComponant = ({ contact }) => {
   return (
     <div className="contact_componant">
       <img src={contact.icon} alt={contact.name} />
-      <p>{contact.name}</p>
+      <a href={contact.lien} target="_blank">{contact.name}</a>
     </div>
   );
 };
