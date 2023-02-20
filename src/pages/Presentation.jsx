@@ -21,7 +21,7 @@ const Presentation = () => {
       <div>
         <img src={presentation.photo} alt={presentation.prenom} />
       </div>
-      <div>
+      <div id="reseaux_container">
         {presentation.resaux.map((e, index) => (
           <IconComponant icon={e} key={index} />
         ))}

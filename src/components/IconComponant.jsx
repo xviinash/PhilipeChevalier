@@ -2,9 +2,9 @@ import React from "react";
 
 const IconComponant = ({ icon }) => {
   return (
-    <div className="icon_componant">
+    <a href={icon.lien} className="icon_componant">
       <img src={icon.icon} alt={icon.name} />
-    </div>
+    </a>
   );
 };
 

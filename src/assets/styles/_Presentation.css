@@ -31,3 +31,8 @@
   padding-left: 10px;
   color: #9499A3;
 }
+
+#reseaux_container {
+  display: flex;
+  flex-direction: column;
+}
