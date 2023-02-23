@@ -39,3 +39,12 @@ body {
   margin: 0 auto;
   max-width: 1200px;
 }
+
+body::-webkit-scrollbar {
+	width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #666666;
+  border-radius: 10px;
+}
