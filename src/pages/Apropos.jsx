@@ -8,42 +8,44 @@ const Apropos = () => {
   const { apropos } = useContext(DataContext);
 
   return (
-    <section id="apropos_section">
-      <h2>A Propos</h2>
-      <div className="parts_a_propos">
-        <div className="icon_section">
-          <img src="/assets/icons/sections/diplome.svg" alt="diplome" />
+    <div id="apropos_section">
+      <section>
+        <h2>A Propos</h2>
+        <div className="parts_a_propos">
+          <div className="icon_section">
+            <img src="/assets/icons/sections/diplome.svg" alt="diplome" />
+          </div>
+          <div className="contenu_a_propos" id="parcours_contain">
+            {apropos.parcours.map((e, index) => (
+              <DiplomeCompnent parcours={e} key={index} />
+            ))}
+          </div>
         </div>
-        <div className="contenu_a_propos" id="parcours_contain">
-          {apropos.parcours.map((e, index) => (
-            <DiplomeCompnent parcours={e} key={index} />
-          ))}
+        <div className="parts_a_propos" id="logiciel_container">
+          <div className="icon_section">
+            <img src="/assets/icons/sections/parametre.svg" alt="parametre" />
+          </div>
+          <div className="contenu_a_propos" id="logiciel_contain">
+            {apropos.logiciel.map((e, index) => (
+              <IconComponant icon={e} key={index} />
+            ))}
+          </div>
         </div>
-      </div>
-      <div className="parts_a_propos" id="logiciel_container">
-        <div className="icon_section">
-          <img src="/assets/icons/sections/parametre.svg" alt="parametre" />
+        <div className="parts_a_propos">
+          <div className="icon_section">
+            <img
+              src="/assets/icons/sections/information.svg"
+              alt="information"
+            />
+          </div>
+          <div className="contenu_a_propos" id="paragraphe_contain">
+            {apropos.information.map((e, index) => (
+              <ParagrapheComponant contain={e} key={index} />
+            ))}
+          </div>
         </div>
-        <div className="contenu_a_propos" id="logiciel_contain">
-          {apropos.logiciel.map((e, index) => (
-            <IconComponant icon={e} key={index} />
-          ))}
-        </div>
-      </div>
-      <div className="parts_a_propos">
-        <div className="icon_section">
-          <img
-            src="/assets/icons/sections/information.svg"
-            alt="information"
-          />
-        </div>
-        <div className="contenu_a_propos" id="paragraphe_contain">
-          {apropos.information.map((e, index) => (
-            <ParagrapheComponant contain={e} key={index} />
-          ))}
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 

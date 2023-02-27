@@ -1,11 +1,11 @@
-#presentation_section {
+#presentation_section > section {
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-#presentation_section > div {
+#presentation_section > section > div {
   height: 70%;
 }
 
@@ -29,7 +29,7 @@
   height: 35px;
   padding-top: 5px;
   padding-left: 10px;
-  color: #9499A3;
+  color: #9499a3;
 }
 
 #reseaux_container {

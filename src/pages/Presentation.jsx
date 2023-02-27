@@ -6,7 +6,8 @@ const Presentation = () => {
   const { presentation } = useContext(DataContext);
 
   return (
-    <section id="presentation_section">
+    <div  id="presentation_section">
+    <section>
       <div id="phrase_general">
         <div>
           Bonjour, <br />
@@ -27,6 +28,8 @@ const Presentation = () => {
         ))}
       </div>
     </section>
+
+    </div>
   );
 };
 

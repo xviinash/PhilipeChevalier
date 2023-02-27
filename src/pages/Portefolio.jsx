@@ -9,16 +9,20 @@ const Portefolio = () => {
   }, []);
 
   return (
-    <section id="portefolio_section">
-      <h2>Le Portefolio</h2>
-      <div id="project_container">
-        <div id="presentation_project">
-          {project.map((e, index) => (
-            <a href={e.url} target="_blank"><img key={index} src={e.covers.original} alt={e.slug} /></a>
-          ))}
+    <div id="portefolio_section">
+      <section>
+        <h2>Le Portefolio</h2>
+        <div id="project_container">
+          <div id="presentation_project">
+            {project.map((e, index) => (
+              <a href={e.url} target="_blank">
+                <img key={index} src={e.covers.original} alt={e.slug} />
+              </a>
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 
