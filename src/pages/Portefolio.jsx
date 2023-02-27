@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import PortefolioComponent from "../components/PortefolioComponent";
 import { Behance } from "../resources/Behance";
 
 const Portefolio = () => {
@@ -15,9 +16,7 @@ const Portefolio = () => {
         <div id="project_container">
           <div id="presentation_project">
             {project.map((e, index) => (
-              <a href={e.url} target="_blank">
-                <img key={index} src={e.covers.original} alt={e.slug} />
-              </a>
+              <PortefolioComponent key={index} project={e}/>
             ))}
           </div>
         </div>
