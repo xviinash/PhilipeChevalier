@@ -49,3 +49,21 @@ header {
 #media_header {
   width: 2%;
 }
+
+@media (max-width: 400px) {
+  #header {
+    max-width: 350px;
+  }
+
+  #header nav {
+    width: 65%;
+  }
+
+  #header nav a {
+    font-size: 14px;
+  }
+
+  #media_header {
+    width: 6%;
+  }
+}

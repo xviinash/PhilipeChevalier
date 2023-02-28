@@ -50,3 +50,34 @@ h3 {
 .diplome_container p{
   font-size: 13px;
 }
+
+@media (max-width: 400px) {
+
+  .parts_a_propos{
+    margin-bottom: 25px;
+  }
+  
+  .contenu_a_propos {
+    margin-top: 15px;
+    flex-direction: column;
+  }
+
+  .diplome_container {
+    width: 100%;
+  }
+
+  #parcours_contain {
+    height: 250px;
+  }
+
+  #logiciel_contain {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    width: 80%;
+  }
+
+  #logiciel_contain a {
+    width: 25%;
+  }
+}

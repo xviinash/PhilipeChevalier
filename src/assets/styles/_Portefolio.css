@@ -114,3 +114,20 @@ body::-webkit-scrollbar-track {
   right: 20px;
   bottom:20px;
 }
+
+@media (max-width: 400px) {
+
+  #project_container {
+    height: 500px;
+  }
+
+  #presentation_project {
+    overflow:scroll;
+    height: 450px;
+  }
+
+
+  #presentation_project::-webkit-scrollbar {
+    display: none;
+  }
+}
