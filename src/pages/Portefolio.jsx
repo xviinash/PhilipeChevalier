@@ -12,7 +12,7 @@ const Portefolio = () => {
   return (
     <div id="portefolio_section">
       <section>
-        <h2>Le Portefolio</h2>
+        <h2>Le Portfolio</h2>
         <div id="project_container">
           <div id="presentation_project">
             {project.map((e, index) => (
