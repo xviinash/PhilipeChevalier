@@ -1,0 +1,3032 @@
+<!DOCTYPE html>
+<html class="" lang="fr">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script async="" src="gaiete_fichiers/pixie.js"></script>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="language" content="fr">
+
+
+
+
+    <title>La Gaîté Lyrique | Pitchfork Music Festival Paris 2022</title>
+
+    <link rel="shortcut icon" href="https://gaite-lyrique.net/img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="https://gaite-lyrique.net/img/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="gaiete_fichiers/main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/gag2lgq.css">
+    <style>
+        .flatpickr-calendar {
+            -webkit-animation: none;
+            animation: none;
+            background: transparent;
+            background: #fff;
+            border: 0;
+            border-radius: 5px;
+            -webkit-box-shadow: 1px 0 0 #e6e6e6, -1px 0 0 #e6e6e6, 0 1px 0 #e6e6e6, 0 -1px 0 #e6e6e6, 0 3px 13px rgba(0, 0, 0, .08);
+            box-shadow: 1px 0 0 #e6e6e6, -1px 0 0 #e6e6e6, 0 1px 0 #e6e6e6, 0 -1px 0 #e6e6e6, 0 3px 13px rgba(0, 0, 0, .08);
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            direction: ltr;
+            display: none;
+            font-size: 14px;
+            line-height: 24px;
+            opacity: 0;
+            padding: 0;
+            position: absolute;
+            text-align: center;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            visibility: hidden;
+            width: 307.875px
+        }
+
+        .flatpickr-calendar.inline,
+        .flatpickr-calendar.open {
+            max-height: 640px;
+            opacity: 1;
+            visibility: visible
+        }
+
+        .flatpickr-calendar.open {
+            display: inline-block;
+            z-index: 99999
+        }
+
+        .flatpickr-calendar.animate.open {
+            -webkit-animation: fpFadeInDown .3s cubic-bezier(.23, 1, .32, 1);
+            animation: fpFadeInDown .3s cubic-bezier(.23, 1, .32, 1)
+        }
+
+        .flatpickr-calendar.inline {
+            display: block;
+            position: relative;
+            top: 2px
+        }
+
+        .flatpickr-calendar.static {
+            position: absolute;
+            top: calc(100% + 2px)
+        }
+
+        .flatpickr-calendar.static.open {
+            display: block;
+            z-index: 999
+        }
+
+        .flatpickr-calendar.multiMonth .flatpickr-days .dayContainer:nth-child(n+1) .flatpickr-day.inRange:nth-child(7n+7) {
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important
+        }
+
+        .flatpickr-calendar.multiMonth .flatpickr-days .dayContainer:nth-child(n+2) .flatpickr-day.inRange:nth-child(7n+1) {
+            -webkit-box-shadow: -2px 0 0 #e6e6e6, 5px 0 0 #e6e6e6;
+            box-shadow: -2px 0 0 #e6e6e6, 5px 0 0 #e6e6e6
+        }
+
+        .flatpickr-calendar .hasTime .dayContainer,
+        .flatpickr-calendar .hasWeeks .dayContainer {
+            border-bottom: 0;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0
+        }
+
+        .flatpickr-calendar .hasWeeks .dayContainer {
+            border-left: 0
+        }
+
+        .flatpickr-calendar.hasTime .flatpickr-time {
+            border-top: 1px solid #e6e6e6;
+            height: 40px
+        }
+
+        .flatpickr-calendar.noCalendar.hasTime .flatpickr-time {
+            height: auto
+        }
+
+        .flatpickr-calendar:after,
+        .flatpickr-calendar:before {
+            border: solid transparent;
+            content: "";
+            display: block;
+            height: 0;
+            left: 22px;
+            pointer-events: none;
+            position: absolute;
+            width: 0
+        }
+
+        .flatpickr-calendar.arrowRight:after,
+        .flatpickr-calendar.arrowRight:before,
+        .flatpickr-calendar.rightMost:after,
+        .flatpickr-calendar.rightMost:before {
+            left: auto;
+            right: 22px
+        }
+
+        .flatpickr-calendar.arrowCenter:after,
+        .flatpickr-calendar.arrowCenter:before {
+            left: 50%;
+            right: 50%
+        }
+
+        .flatpickr-calendar:before {
+            border-width: 5px;
+            margin: 0 -5px
+        }
+
+        .flatpickr-calendar:after {
+            border-width: 4px;
+            margin: 0 -4px
+        }
+
+        .flatpickr-calendar.arrowTop:after,
+        .flatpickr-calendar.arrowTop:before {
+            bottom: 100%
+        }
+
+        .flatpickr-calendar.arrowTop:before {
+            border-bottom-color: #e6e6e6
+        }
+
+        .flatpickr-calendar.arrowTop:after {
+            border-bottom-color: #fff
+        }
+
+        .flatpickr-calendar.arrowBottom:after,
+        .flatpickr-calendar.arrowBottom:before {
+            top: 100%
+        }
+
+        .flatpickr-calendar.arrowBottom:before {
+            border-top-color: #e6e6e6
+        }
+
+        .flatpickr-calendar.arrowBottom:after {
+            border-top-color: #fff
+        }
+
+        .flatpickr-calendar:focus {
+            outline: 0
+        }
+
+        .flatpickr-wrapper {
+            display: inline-block;
+            position: relative
+        }
+
+        .flatpickr-months {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex
+        }
+
+        .flatpickr-months .flatpickr-month {
+            -webkit-box-flex: 1;
+            background: transparent;
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            line-height: 1;
+            overflow: hidden;
+            position: relative;
+            text-align: center
+        }
+
+        .flatpickr-months .flatpickr-month,
+        .flatpickr-months .flatpickr-next-month,
+        .flatpickr-months .flatpickr-prev-month {
+            fill: rgba(0, 0, 0, .9);
+            color: rgba(0, 0, 0, .9);
+            height: 34px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+        .flatpickr-months .flatpickr-next-month,
+        .flatpickr-months .flatpickr-prev-month {
+            cursor: pointer;
+            padding: 10px;
+            position: absolute;
+            text-decoration: none;
+            top: 0;
+            z-index: 3
+        }
+
+        .flatpickr-months .flatpickr-next-month.flatpickr-disabled,
+        .flatpickr-months .flatpickr-prev-month.flatpickr-disabled {
+            display: none
+        }
+
+        .flatpickr-months .flatpickr-next-month i,
+        .flatpickr-months .flatpickr-prev-month i {
+            position: relative
+        }
+
+        .flatpickr-months .flatpickr-next-month.flatpickr-prev-month,
+        .flatpickr-months .flatpickr-prev-month.flatpickr-prev-month {
+            left: 0
+        }
+
+        .flatpickr-months .flatpickr-next-month.flatpickr-next-month,
+        .flatpickr-months .flatpickr-prev-month.flatpickr-next-month {
+            right: 0
+        }
+
+        .flatpickr-months .flatpickr-next-month:hover,
+        .flatpickr-months .flatpickr-prev-month:hover {
+            color: #959ea9
+        }
+
+        .flatpickr-months .flatpickr-next-month:hover svg,
+        .flatpickr-months .flatpickr-prev-month:hover svg {
+            fill: #f64747
+        }
+
+        .flatpickr-months .flatpickr-next-month svg,
+        .flatpickr-months .flatpickr-prev-month svg {
+            height: 14px;
+            width: 14px
+        }
+
+        .flatpickr-months .flatpickr-next-month svg path,
+        .flatpickr-months .flatpickr-prev-month svg path {
+            fill: inherit;
+            -webkit-transition: fill .1s;
+            transition: fill .1s
+        }
+
+        .numInputWrapper {
+            height: auto;
+            position: relative
+        }
+
+        .numInputWrapper input,
+        .numInputWrapper span {
+            display: inline-block
+        }
+
+        .numInputWrapper input {
+            width: 100%
+        }
+
+        .numInputWrapper input::-ms-clear {
+            display: none
+        }
+
+        .numInputWrapper input::-webkit-inner-spin-button,
+        .numInputWrapper input::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0
+        }
+
+        .numInputWrapper span {
+            border: 1px solid rgba(57, 57, 57, .15);
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            cursor: pointer;
+            height: 50%;
+            line-height: 50%;
+            opacity: 0;
+            padding: 0 4px 0 2px;
+            position: absolute;
+            right: 0;
+            width: 14px
+        }
+
+        .numInputWrapper span:hover {
+            background: rgba(0, 0, 0, .1)
+        }
+
+        .numInputWrapper span:active {
+            background: rgba(0, 0, 0, .2)
+        }
+
+        .numInputWrapper span:after {
+            content: "";
+            display: block;
+            position: absolute
+        }
+
+        .numInputWrapper span.arrowUp {
+            border-bottom: 0;
+            top: 0
+        }
+
+        .numInputWrapper span.arrowUp:after {
+            border-bottom: 4px solid rgba(57, 57, 57, .6);
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+            top: 26%
+        }
+
+        .numInputWrapper span.arrowDown {
+            top: 50%
+        }
+
+        .numInputWrapper span.arrowDown:after {
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+            border-top: 4px solid rgba(57, 57, 57, .6);
+            top: 40%
+        }
+
+        .numInputWrapper span svg {
+            height: auto;
+            width: inherit
+        }
+
+        .numInputWrapper span svg path {
+            fill: rgba(0, 0, 0, .5)
+        }
+
+        .numInputWrapper:hover {
+            background: rgba(0, 0, 0, .05)
+        }
+
+        .numInputWrapper:hover span {
+            opacity: 1
+        }
+
+        .flatpickr-current-month {
+            color: inherit;
+            display: inline-block;
+            font-size: 135%;
+            font-weight: 300;
+            height: 34px;
+            left: 12.5%;
+            line-height: inherit;
+            line-height: 1;
+            padding: 7.48px 0 0;
+            position: absolute;
+            text-align: center;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            width: 75%
+        }
+
+        .flatpickr-current-month span.cur-month {
+            color: inherit;
+            display: inline-block;
+            font-family: inherit;
+            font-weight: 700;
+            margin-left: .5ch;
+            padding: 0
+        }
+
+        .flatpickr-current-month span.cur-month:hover {
+            background: rgba(0, 0, 0, .05)
+        }
+
+        .flatpickr-current-month .numInputWrapper {
+            display: inline-block;
+            width: 6ch;
+            width: 7ch\0
+        }
+
+        .flatpickr-current-month .numInputWrapper span.arrowUp:after {
+            border-bottom-color: rgba(0, 0, 0, .9)
+        }
+
+        .flatpickr-current-month .numInputWrapper span.arrowDown:after {
+            border-top-color: rgba(0, 0, 0, .9)
+        }
+
+        .flatpickr-current-month input.cur-year {
+            -webkit-appearance: textfield;
+            -moz-appearance: textfield;
+            appearance: textfield;
+            background: transparent;
+            border: 0;
+            border-radius: 0;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            color: inherit;
+            cursor: text;
+            display: inline-block;
+            font-family: inherit;
+            font-size: inherit;
+            font-weight: 300;
+            height: auto;
+            line-height: inherit;
+            margin: 0;
+            padding: 0 0 0 .5ch;
+            vertical-align: initial
+        }
+
+        .flatpickr-current-month input.cur-year:focus {
+            outline: 0
+        }
+
+        .flatpickr-current-month input.cur-year[disabled],
+        .flatpickr-current-month input.cur-year[disabled]:hover {
+            background: transparent;
+            color: rgba(0, 0, 0, .5);
+            font-size: 100%;
+            pointer-events: none
+        }
+
+        .flatpickr-current-month .flatpickr-monthDropdown-months {
+            appearance: menulist;
+            -webkit-appearance: menulist;
+            -moz-appearance: menulist;
+            background: transparent;
+            border: none;
+            border-radius: 0;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            color: inherit;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: inherit;
+            font-weight: 300;
+            height: auto;
+            line-height: inherit;
+            margin: -1px 0 0;
+            outline: none;
+            padding: 0 0 0 .5ch;
+            position: relative;
+            vertical-align: initial;
+            width: auto
+        }
+
+        .flatpickr-current-month .flatpickr-monthDropdown-months:active,
+        .flatpickr-current-month .flatpickr-monthDropdown-months:focus {
+            outline: none
+        }
+
+        .flatpickr-current-month .flatpickr-monthDropdown-months:hover {
+            background: rgba(0, 0, 0, .05)
+        }
+
+        .flatpickr-current-month .flatpickr-monthDropdown-months .flatpickr-monthDropdown-month {
+            background-color: transparent;
+            outline: none;
+            padding: 0
+        }
+
+        .flatpickr-weekdays {
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            background: transparent;
+            height: 28px;
+            overflow: hidden;
+            text-align: center;
+            width: 100%
+        }
+
+        .flatpickr-weekdays,
+        .flatpickr-weekdays .flatpickr-weekdaycontainer {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex
+        }
+
+        .flatpickr-weekdays .flatpickr-weekdaycontainer,
+        span.flatpickr-weekday {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1
+        }
+
+        span.flatpickr-weekday {
+            background: transparent;
+            color: rgba(0, 0, 0, .54);
+            cursor: default;
+            display: block;
+            font-size: 90%;
+            font-weight: bolder;
+            line-height: 1;
+            margin: 0;
+            text-align: center
+        }
+
+        .dayContainer,
+        .flatpickr-weeks {
+            padding: 1px 0 0
+        }
+
+        .flatpickr-days {
+            -webkit-box-align: start;
+            -ms-flex-align: start;
+            -webkit-align-items: flex-start;
+            align-items: flex-start;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            width: 307.875px
+        }
+
+        .flatpickr-days:focus {
+            outline: 0
+        }
+
+        .dayContainer {
+            -ms-flex-pack: justify;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            display: inline-block;
+            display: -ms-flexbox;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            -webkit-justify-content: space-around;
+            justify-content: space-around;
+            max-width: 307.875px;
+            min-width: 307.875px;
+            opacity: 1;
+            outline: 0;
+            padding: 0;
+            text-align: left;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            width: 307.875px
+        }
+
+        .dayContainer+.dayContainer {
+            -webkit-box-shadow: -1px 0 0 #e6e6e6;
+            box-shadow: -1px 0 0 #e6e6e6
+        }
+
+        .flatpickr-day {
+            -ms-flex-preferred-size: 14.2857143%;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            background: none;
+            border: 1px solid transparent;
+            border-radius: 150px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            color: #393939;
+            cursor: pointer;
+            display: inline-block;
+            -webkit-flex-basis: 14.2857143%;
+            flex-basis: 14.2857143%;
+            font-weight: 400;
+            height: 39px;
+            -webkit-justify-content: center;
+            justify-content: center;
+            line-height: 39px;
+            margin: 0;
+            max-width: 39px;
+            position: relative;
+            text-align: center;
+            width: 14.2857143%
+        }
+
+        .flatpickr-day.inRange,
+        .flatpickr-day.nextMonthDay.inRange,
+        .flatpickr-day.nextMonthDay.today.inRange,
+        .flatpickr-day.nextMonthDay:focus,
+        .flatpickr-day.nextMonthDay:hover,
+        .flatpickr-day.prevMonthDay.inRange,
+        .flatpickr-day.prevMonthDay.today.inRange,
+        .flatpickr-day.prevMonthDay:focus,
+        .flatpickr-day.prevMonthDay:hover,
+        .flatpickr-day.today.inRange,
+        .flatpickr-day:focus,
+        .flatpickr-day:hover {
+            background: #e6e6e6;
+            border-color: #e6e6e6;
+            cursor: pointer;
+            outline: 0
+        }
+
+        .flatpickr-day.today {
+            border-color: #959ea9
+        }
+
+        .flatpickr-day.today:focus,
+        .flatpickr-day.today:hover {
+            background: #959ea9;
+            border-color: #959ea9;
+            color: #fff
+        }
+
+        .flatpickr-day.endRange,
+        .flatpickr-day.endRange.inRange,
+        .flatpickr-day.endRange.nextMonthDay,
+        .flatpickr-day.endRange.prevMonthDay,
+        .flatpickr-day.endRange:focus,
+        .flatpickr-day.endRange:hover,
+        .flatpickr-day.selected,
+        .flatpickr-day.selected.inRange,
+        .flatpickr-day.selected.nextMonthDay,
+        .flatpickr-day.selected.prevMonthDay,
+        .flatpickr-day.selected:focus,
+        .flatpickr-day.selected:hover,
+        .flatpickr-day.startRange,
+        .flatpickr-day.startRange.inRange,
+        .flatpickr-day.startRange.nextMonthDay,
+        .flatpickr-day.startRange.prevMonthDay,
+        .flatpickr-day.startRange:focus,
+        .flatpickr-day.startRange:hover {
+            background: #569ff7;
+            border-color: #569ff7;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            color: #fff
+        }
+
+        .flatpickr-day.endRange.startRange,
+        .flatpickr-day.selected.startRange,
+        .flatpickr-day.startRange.startRange {
+            border-radius: 50px 0 0 50px
+        }
+
+        .flatpickr-day.endRange.endRange,
+        .flatpickr-day.selected.endRange,
+        .flatpickr-day.startRange.endRange {
+            border-radius: 0 50px 50px 0
+        }
+
+        .flatpickr-day.endRange.startRange+.endRange:not(:nth-child(7n+1)),
+        .flatpickr-day.selected.startRange+.endRange:not(:nth-child(7n+1)),
+        .flatpickr-day.startRange.startRange+.endRange:not(:nth-child(7n+1)) {
+            -webkit-box-shadow: -10px 0 0 #569ff7;
+            box-shadow: -10px 0 0 #569ff7
+        }
+
+        .flatpickr-day.endRange.startRange.endRange,
+        .flatpickr-day.selected.startRange.endRange,
+        .flatpickr-day.startRange.startRange.endRange {
+            border-radius: 50px
+        }
+
+        .flatpickr-day.inRange {
+            border-radius: 0;
+            -webkit-box-shadow: -5px 0 0 #e6e6e6, 5px 0 0 #e6e6e6;
+            box-shadow: -5px 0 0 #e6e6e6, 5px 0 0 #e6e6e6
+        }
+
+        .flatpickr-day.flatpickr-disabled,
+        .flatpickr-day.flatpickr-disabled:hover,
+        .flatpickr-day.nextMonthDay,
+        .flatpickr-day.notAllowed,
+        .flatpickr-day.notAllowed.nextMonthDay,
+        .flatpickr-day.notAllowed.prevMonthDay,
+        .flatpickr-day.prevMonthDay {
+            background: transparent;
+            border-color: transparent;
+            color: rgba(57, 57, 57, .3);
+            cursor: default
+        }
+
+        .flatpickr-day.flatpickr-disabled,
+        .flatpickr-day.flatpickr-disabled:hover {
+            color: rgba(57, 57, 57, .1);
+            cursor: not-allowed
+        }
+
+        .flatpickr-day.week.selected {
+            border-radius: 0;
+            -webkit-box-shadow: -5px 0 0 #569ff7, 5px 0 0 #569ff7;
+            box-shadow: -5px 0 0 #569ff7, 5px 0 0 #569ff7
+        }
+
+        .flatpickr-day.hidden {
+            visibility: hidden
+        }
+
+        .rangeMode .flatpickr-day {
+            margin-top: 1px
+        }
+
+        .flatpickr-weekwrapper {
+            float: left
+        }
+
+        .flatpickr-weekwrapper .flatpickr-weeks {
+            -webkit-box-shadow: 1px 0 0 #e6e6e6;
+            box-shadow: 1px 0 0 #e6e6e6;
+            padding: 0 12px
+        }
+
+        .flatpickr-weekwrapper .flatpickr-weekday {
+            float: none;
+            line-height: 28px;
+            width: 100%
+        }
+
+        .flatpickr-weekwrapper span.flatpickr-day,
+        .flatpickr-weekwrapper span.flatpickr-day:hover {
+            background: transparent;
+            border: none;
+            color: rgba(57, 57, 57, .3);
+            cursor: default;
+            display: block;
+            max-width: none;
+            width: 100%
+        }
+
+        .flatpickr-innerContainer {
+            display: block;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            overflow: hidden
+        }
+
+        .flatpickr-innerContainer,
+        .flatpickr-rContainer {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        .flatpickr-rContainer {
+            display: inline-block;
+            padding: 0
+        }
+
+        .flatpickr-time {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            display: block;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            height: 0;
+            line-height: 40px;
+            max-height: 40px;
+            outline: 0;
+            overflow: hidden;
+            text-align: center
+        }
+
+        .flatpickr-time:after {
+            clear: both;
+            content: "";
+            display: table
+        }
+
+        .flatpickr-time .numInputWrapper {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            float: left;
+            height: 40px;
+            width: 40%
+        }
+
+        .flatpickr-time .numInputWrapper span.arrowUp:after {
+            border-bottom-color: #393939
+        }
+
+        .flatpickr-time .numInputWrapper span.arrowDown:after {
+            border-top-color: #393939
+        }
+
+        .flatpickr-time.hasSeconds .numInputWrapper {
+            width: 26%
+        }
+
+        .flatpickr-time.time24hr .numInputWrapper {
+            width: 49%
+        }
+
+        .flatpickr-time input {
+            -webkit-appearance: textfield;
+            -moz-appearance: textfield;
+            appearance: textfield;
+            background: transparent;
+            border: 0;
+            border-radius: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            color: #393939;
+            font-size: 14px;
+            height: inherit;
+            line-height: inherit;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            text-align: center
+        }
+
+        .flatpickr-time input.flatpickr-hour {
+            font-weight: 700
+        }
+
+        .flatpickr-time input.flatpickr-minute,
+        .flatpickr-time input.flatpickr-second {
+            font-weight: 400
+        }
+
+        .flatpickr-time input:focus {
+            border: 0;
+            outline: 0
+        }
+
+        .flatpickr-time .flatpickr-am-pm,
+        .flatpickr-time .flatpickr-time-separator {
+            -ms-flex-item-align: center;
+            -webkit-align-self: center;
+            align-self: center;
+            color: #393939;
+            float: left;
+            font-weight: 700;
+            height: inherit;
+            line-height: inherit;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            width: 2%
+        }
+
+        .flatpickr-time .flatpickr-am-pm {
+            cursor: pointer;
+            font-weight: 400;
+            outline: 0;
+            text-align: center;
+            width: 18%
+        }
+
+        .flatpickr-time .flatpickr-am-pm:focus,
+        .flatpickr-time .flatpickr-am-pm:hover,
+        .flatpickr-time input:focus,
+        .flatpickr-time input:hover {
+            background: #eee
+        }
+
+        .flatpickr-input[readonly] {
+            cursor: pointer
+        }
+
+        @-webkit-keyframes fpFadeInDown {
+            0% {
+                opacity: 0;
+                -webkit-transform: translate3d(0, -20px, 0);
+                transform: translate3d(0, -20px, 0)
+            }
+
+            to {
+                opacity: 1;
+                -webkit-transform: translateZ(0);
+                transform: translateZ(0)
+            }
+        }
+
+        @keyframes fpFadeInDown {
+            0% {
+                opacity: 0;
+                -webkit-transform: translate3d(0, -20px, 0);
+                transform: translate3d(0, -20px, 0)
+            }
+
+            to {
+                opacity: 1;
+                -webkit-transform: translateZ(0);
+                transform: translateZ(0)
+            }
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="gaiete_fichiers/tarteaucitron.css">
+    <script async="" src="gaiete_fichiers/fbevents.js"></script>
+    <script type="text/javascript" async="" src="gaiete_fichiers/analytics.js"></script>
+    <script src="gaiete_fichiers/sdk_002.js" async="" crossorigin="anonymous"></script>
+    <script id="" async="" src="gaiete_fichiers/tarteaucitron.fr.js"></script>
+    <script id="" async="" src="gaiete_fichiers/tarteaucitron.services.js"></script>
+    <script id="" async="" src="gaiete_fichiers/js_002"></script>
+    <script id="" async="" src="gaiete_fichiers/gtm.js"></script>
+    <script id="facebook-jssdk" async="" src="gaiete_fichiers/sdk.js"></script>
+    <script id="ausha-player" async="" src="gaiete_fichiers/ausha-player.js"></script>
+    <style type="text/css"
+        data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">
+        .fb_hidden {
+            position: absolute;
+            top: -10000px;
+            z-index: 10001
+        }
+
+        .fb_reposition {
+            overflow: hidden;
+            position: relative
+        }
+
+        .fb_invisible {
+            display: none
+        }
+
+        .fb_reset {
+            background: none;
+            border: 0;
+            border-spacing: 0;
+            color: #000;
+            cursor: auto;
+            direction: ltr;
+            font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+            font-size: 11px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            letter-spacing: normal;
+            line-height: 1;
+            margin: 0;
+            overflow: visible;
+            padding: 0;
+            text-align: left;
+            text-decoration: none;
+            text-indent: 0;
+            text-shadow: none;
+            text-transform: none;
+            visibility: visible;
+            white-space: normal;
+            word-spacing: normal
+        }
+
+        .fb_reset>div {
+            overflow: hidden
+        }
+
+        @keyframes fb_transform {
+            from {
+                opacity: 0;
+                transform: scale(.95)
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1)
+            }
+        }
+
+        .fb_animate {
+            animation: fb_transform .3s forwards
+        }
+
+        .fb_hidden {
+            position: absolute;
+            top: -10000px;
+            z-index: 10001
+        }
+
+        .fb_reposition {
+            overflow: hidden;
+            position: relative
+        }
+
+        .fb_invisible {
+            display: none
+        }
+
+        .fb_reset {
+            background: none;
+            border: 0;
+            border-spacing: 0;
+            color: #000;
+            cursor: auto;
+            direction: ltr;
+            font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+            font-size: 11px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            letter-spacing: normal;
+            line-height: 1;
+            margin: 0;
+            overflow: visible;
+            padding: 0;
+            text-align: left;
+            text-decoration: none;
+            text-indent: 0;
+            text-shadow: none;
+            text-transform: none;
+            visibility: visible;
+            white-space: normal;
+            word-spacing: normal
+        }
+
+        .fb_reset>div {
+            overflow: hidden
+        }
+
+        @keyframes fb_transform {
+            from {
+                opacity: 0;
+                transform: scale(.95)
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1)
+            }
+        }
+
+        .fb_animate {
+            animation: fb_transform .3s forwards
+        }
+
+        .fb_dialog {
+            background: rgba(82, 82, 82, .7);
+            position: absolute;
+            top: -10000px;
+            z-index: 10001
+        }
+
+        .fb_dialog_advanced {
+            border-radius: 8px;
+            padding: 10px
+        }
+
+        .fb_dialog_content {
+            background: #fff;
+            color: #373737
+        }
+
+        .fb_dialog_close_icon {
+            background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;
+            cursor: pointer;
+            display: block;
+            height: 15px;
+            position: absolute;
+            right: 18px;
+            top: 17px;
+            width: 15px
+        }
+
+        .fb_dialog_mobile .fb_dialog_close_icon {
+            left: 5px;
+            right: auto;
+            top: 5px
+        }
+
+        .fb_dialog_padding {
+            background-color: transparent;
+            position: absolute;
+            width: 1px;
+            z-index: -1
+        }
+
+        .fb_dialog_close_icon:hover {
+            background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent
+        }
+
+        .fb_dialog_close_icon:active {
+            background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent
+        }
+
+        .fb_dialog_iframe {
+            line-height: 0
+        }
+
+        .fb_dialog_content .dialog_title {
+            background: #6d84b4;
+            border: 1px solid #365899;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0
+        }
+
+        .fb_dialog_content .dialog_title>span {
+            background: url(https://connect.facebook.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;
+            float: left;
+            padding: 5px 0 7px 26px
+        }
+
+        body.fb_hidden {
+            height: 100%;
+            left: 0;
+            margin: 0;
+            overflow: visible;
+            position: absolute;
+            top: -10000px;
+            transform: none;
+            width: 100%
+        }
+
+        .fb_dialog.fb_dialog_mobile.loading {
+            background: url(https://connect.facebook.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;
+            min-height: 100%;
+            min-width: 100%;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            z-index: 10001
+        }
+
+        .fb_dialog.fb_dialog_mobile.loading.centered {
+            background: none;
+            height: auto;
+            min-height: initial;
+            min-width: initial;
+            width: auto
+        }
+
+        .fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner {
+            width: 100%
+        }
+
+        .fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content {
+            background: none
+        }
+
+        .loading.centered #fb_dialog_loader_close {
+            clear: both;
+            color: #fff;
+            display: block;
+            font-size: 18px;
+            padding-top: 20px
+        }
+
+        #fb-root #fb_dialog_ipad_overlay {
+            background: rgba(0, 0, 0, .4);
+            bottom: 0;
+            left: 0;
+            min-height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 100%;
+            z-index: 10000
+        }
+
+        #fb-root #fb_dialog_ipad_overlay.hidden {
+            display: none
+        }
+
+        .fb_dialog.fb_dialog_mobile.loading iframe {
+            visibility: hidden
+        }
+
+        .fb_dialog_mobile .fb_dialog_iframe {
+            position: sticky;
+            top: 0
+        }
+
+        .fb_dialog_content .dialog_header {
+            background: linear-gradient(from(#738aba), to(#2c4987));
+            border-bottom: 1px solid;
+            border-color: #043b87;
+            box-shadow: white 0 1px 1px -1px inset;
+            color: #fff;
+            font: bold 14px Helvetica, sans-serif;
+            text-overflow: ellipsis;
+            text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0;
+            vertical-align: middle;
+            white-space: nowrap
+        }
+
+        .fb_dialog_content .dialog_header table {
+            height: 43px;
+            width: 100%
+        }
+
+        .fb_dialog_content .dialog_header td.header_left {
+            font-size: 12px;
+            padding-left: 5px;
+            vertical-align: middle;
+            width: 60px
+        }
+
+        .fb_dialog_content .dialog_header td.header_right {
+            font-size: 12px;
+            padding-right: 5px;
+            vertical-align: middle;
+            width: 60px
+        }
+
+        .fb_dialog_content .touchable_button {
+            background: linear-gradient(from(#4267B2), to(#2a4887));
+            background-clip: padding-box;
+            border: 1px solid #29487d;
+            border-radius: 3px;
+            display: inline-block;
+            line-height: 18px;
+            margin-top: 3px;
+            max-width: 85px;
+            padding: 4px 12px;
+            position: relative
+        }
+
+        .fb_dialog_content .dialog_header .touchable_button input {
+            background: none;
+            border: none;
+            color: #fff;
+            font: bold 12px Helvetica, sans-serif;
+            margin: 2px -12px;
+            padding: 2px 6px 3px 6px;
+            text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0
+        }
+
+        .fb_dialog_content .dialog_header .header_center {
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 18px;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .fb_dialog_content .dialog_content {
+            background: url(https://connect.facebook.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;
+            border: 1px solid #4a4a4a;
+            border-bottom: 0;
+            border-top: 0;
+            height: 150px
+        }
+
+        .fb_dialog_content .dialog_footer {
+            background: #f5f6f7;
+            border: 1px solid #4a4a4a;
+            border-top-color: #ccc;
+            height: 40px
+        }
+
+        #fb_dialog_loader_close {
+            float: left
+        }
+
+        .fb_dialog.fb_dialog_mobile .fb_dialog_close_icon {
+            visibility: hidden
+        }
+
+        #fb_dialog_loader_spinner {
+            animation: rotateSpinner 1.2s linear infinite;
+            background-color: transparent;
+            background-image: url(https://connect.facebook.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            height: 24px;
+            width: 24px
+        }
+
+        @keyframes rotateSpinner {
+            0% {
+                transform: rotate(0deg)
+            }
+
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+
+        .fb_iframe_widget {
+            display: inline-block;
+            position: relative
+        }
+
+        .fb_iframe_widget span {
+            display: inline-block;
+            position: relative;
+            text-align: justify
+        }
+
+        .fb_iframe_widget iframe {
+            position: absolute
+        }
+
+        .fb_iframe_widget_fluid_desktop,
+        .fb_iframe_widget_fluid_desktop span,
+        .fb_iframe_widget_fluid_desktop iframe {
+            max-width: 100%
+        }
+
+        .fb_iframe_widget_fluid_desktop iframe {
+            min-width: 220px;
+            position: relative
+        }
+
+        .fb_iframe_widget_lift {
+            z-index: 1
+        }
+
+        .fb_iframe_widget_fluid {
+            display: inline
+        }
+
+        .fb_iframe_widget_fluid span {
+            width: 100%
+        }
+
+        .fb_mpn_mobile_landing_page_slide_out {
+            animation-duration: 200ms;
+            animation-name: fb_mpn_landing_page_slide_out;
+            transition-timing-function: ease-in
+        }
+
+        .fb_mpn_mobile_landing_page_slide_out_from_left {
+            animation-duration: 200ms;
+            animation-name: fb_mpn_landing_page_slide_out_from_left;
+            transition-timing-function: ease-in
+        }
+
+        .fb_mpn_mobile_landing_page_slide_up {
+            animation-duration: 500ms;
+            animation-name: fb_mpn_landing_page_slide_up;
+            transition-timing-function: ease-in
+        }
+
+        .fb_mpn_mobile_bounce_in {
+            animation-duration: 300ms;
+            animation-name: fb_mpn_bounce_in;
+            transition-timing-function: ease-in
+        }
+
+        .fb_mpn_mobile_bounce_out {
+            animation-duration: 300ms;
+            animation-name: fb_mpn_bounce_out;
+            transition-timing-function: ease-in
+        }
+
+        .fb_mpn_mobile_bounce_out_v2 {
+            animation-duration: 300ms;
+            animation-name: fb_mpn_fade_out;
+            transition-timing-function: ease-in
+        }
+
+        .fb_customer_chat_bounce_in_v2 {
+            animation-duration: 300ms;
+            animation-name: fb_bounce_in_v2;
+            transition-timing-function: ease-in
+        }
+
+        .fb_customer_chat_bounce_in_from_left {
+            animation-duration: 300ms;
+            animation-name: fb_bounce_in_from_left;
+            transition-timing-function: ease-in
+        }
+
+        .fb_customer_chat_bounce_out_v2 {
+            animation-duration: 300ms;
+            animation-name: fb_bounce_out_v2;
+            transition-timing-function: ease-in
+        }
+
+        .fb_customer_chat_bounce_out_from_left {
+            animation-duration: 300ms;
+            animation-name: fb_bounce_out_from_left;
+            transition-timing-function: ease-in
+        }
+
+        .fb_invisible_flow {
+            display: inherit;
+            height: 0;
+            overflow-x: hidden;
+            width: 0
+        }
+
+        @keyframes fb_mpn_landing_page_slide_out {
+            0% {
+                margin: 0 12px;
+                width: 100% - 24px
+            }
+
+            60% {
+                border-radius: 18px
+            }
+
+            100% {
+                border-radius: 50%;
+                margin: 0 24px;
+                width: 60px
+            }
+        }
+
+        @keyframes fb_mpn_landing_page_slide_out_from_left {
+            0% {
+                left: 12px;
+                width: 100% - 24px
+            }
+
+            60% {
+                border-radius: 18px
+            }
+
+            100% {
+                border-radius: 50%;
+                left: 12px;
+                width: 60px
+            }
+        }
+
+        @keyframes fb_mpn_landing_page_slide_up {
+            0% {
+                bottom: 0;
+                opacity: 0
+            }
+
+            100% {
+                bottom: 24px;
+                opacity: 1
+            }
+        }
+
+        @keyframes fb_mpn_bounce_in {
+            0% {
+                opacity: .5;
+                top: 100%
+            }
+
+            100% {
+                opacity: 1;
+                top: 0
+            }
+        }
+
+        @keyframes fb_mpn_fade_out {
+            0% {
+                bottom: 30px;
+                opacity: 1
+            }
+
+            100% {
+                bottom: 0;
+                opacity: 0
+            }
+        }
+
+        @keyframes fb_mpn_bounce_out {
+            0% {
+                opacity: 1;
+                top: 0
+            }
+
+            100% {
+                opacity: .5;
+                top: 100%
+            }
+        }
+
+        @keyframes fb_bounce_in_v2 {
+            0% {
+                opacity: 0;
+                transform: scale(0, 0);
+                transform-origin: bottom right
+            }
+
+            50% {
+                transform: scale(1.03, 1.03);
+                transform-origin: bottom right
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1, 1);
+                transform-origin: bottom right
+            }
+        }
+
+        @keyframes fb_bounce_in_from_left {
+            0% {
+                opacity: 0;
+                transform: scale(0, 0);
+                transform-origin: bottom left
+            }
+
+            50% {
+                transform: scale(1.03, 1.03);
+                transform-origin: bottom left
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1, 1);
+                transform-origin: bottom left
+            }
+        }
+
+        @keyframes fb_bounce_out_v2 {
+            0% {
+                opacity: 1;
+                transform: scale(1, 1);
+                transform-origin: bottom right
+            }
+
+            100% {
+                opacity: 0;
+                transform: scale(0, 0);
+                transform-origin: bottom right
+            }
+        }
+
+        @keyframes fb_bounce_out_from_left {
+            0% {
+                opacity: 1;
+                transform: scale(1, 1);
+                transform-origin: bottom left
+            }
+
+            100% {
+                opacity: 0;
+                transform: scale(0, 0);
+                transform-origin: bottom left
+            }
+        }
+
+        @keyframes slideInFromBottom {
+            0% {
+                opacity: .1;
+                transform: translateY(100%)
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+
+        @keyframes slideInFromBottomDelay {
+            0% {
+                opacity: 0;
+                transform: translateY(100%)
+            }
+
+            97% {
+                opacity: 0;
+                transform: translateY(100%)
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }          
+    </style>       
+<!--                                                                  
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################
+--> 
+<style>
+        .cover_aiart { height:600PX ; background-color:rgba(0, 0, 0, .25); position: relative; display: flex; overflow: hidden; align-items: center; justify-content: center;}
+        .cover_img {
+                    width: 100%;
+                    height: 100%;
+                    }
+
+                    #background {
+                    object-fit: cover;
+                    }   
+                    @media (max-width: 767px) {
+  .cover_aiart {
+    height: 400px;
+  }
+}
+        .sponsor svg {margin:10px; fill: white;}
+        .sponsor { align-items: center; vertical-align: baseline; position:absolute;bottom:10px;right:10px}
+            #ina { height: 50px; margin-top: auto; margin-bottom: auto; display: flex;}
+            #arte{ height: 20px;  display: flex;}
+
+/*//////////////ENSEMBLE///////////////*/
+    .parent_square_windows {position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: -80px;}
+
+/*Title_Box*/
+        .title {display: flex; position: absolute; padding-right: 88px; margin-top: 120px;margin-left: -60px}
+/*Disparition_GIF*/
+        #gif {
+        animation: hide 3.5s forwards;
+        }
+        @keyframes hide {
+        99% {
+        opacity: 1;
+        }
+        100% {
+        opacity: 0;
+        }
+        }
+/*Apparition_FIX*/
+        #fix {
+        opacity: 0;
+        animation: show 3.5s forwards; margin-left: -257px;
+        }
+        @keyframes show {
+        99% {
+        opacity: 0;
+        }
+        100% {
+        opacity: 1;
+        }
+        }
+
+/*Black_Box*/
+
+        .square:hover + .window {
+        opacity: 0;
+        }
+        .square {
+            height: 0px;width: 0px;
+            background-color: rgb(0, 0, 0);
+            position: absolute;justify-content: center; display: flex;
+            animation: resize 2s forwards;animation-delay: 3s;}
+        @keyframes resize {
+         0% {
+            height: 0px;
+            width: 0px;
+        }
+        100% {
+            height: 200px;
+            width: 450px;
+        }
+}
+/*Mouse*/
+        
+        .mouse_block {height: 20px ; margin-top: auto; margin-bottom: auto; display: flex; position: relative; animation: mouse_pos 2s forwards;animation-delay: 3s;}
+        @keyframes mouse_pos {
+        0% {
+            top: 0px;
+            left: 0px;
+        }
+        100% {
+            top: 200px;
+            left: 450px;
+        }
+    }
+/*Ensemble des fenêtres*/      
+        .box_windows {position: absolute; justify-content: center; margin-top: -20px;}
+/*Fenêtre*/
+
+        .window {
+        border-radius: 15px;
+        width: 400px; height: 200px;
+        background-color:rgba(255, 255, 255);
+        box-shadow: -2px 4px 10px rgba(0, 0, 0, 20);
+        justify-content: center ;vertical-align: baseline; position: absolute;
+        opacity: 0; animation: showWindow 0.2s forwards; animation-delay: 4s;}
+            /*croix*/
+            .window:before{
+            margin-left: 20px; padding-top: 4px;
+            display: inline-block;
+            content: "\00d7" "\00A0" "\00A0" "\002D";
+            font-size: 24px; /* This will render the 'X' */
+            }
+            /*fenêtre*/
+            #p_cadre{font-size: 36px; font-size-adjust:0.5; padding-left: 30px; padding-top: 10px; 
+            font-family: ambroise-std, serif;
+            font-weight: 600;
+            font-style: normal;}
+            #i{font-family: ambroise-std, serif;
+            font-weight: 300;
+            font-style: italic;}
+            
+            .window:nth-child(2) {
+            animation-delay: 4.2s;
+            }
+            .window:nth-child(3) {
+            animation-delay: 4.4s;
+            }
+            @keyframes showWindow {
+            from { opacity: 0; }
+            to { opacity: 1; }
+            }
+
+            
+        
+
+</style>
+
+<!--                                                                  
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################--> 
+
+    <script type="text/javascript" async="" src="gaiete_fichiers/a"></script>
+</head>
+
+<body class="single single-group ">
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-wrapper">
+                <div class="navbar-title is-size-2 is-responsive">
+
+                    <span class="navbar-title-prefix">Programmes</span>&nbsp;
+
+
+                    <span>&nbsp;<a href="#">Gaîté Lyrique</a></span>
+                </div>
+
+                <div class="navbar-menu">
+                    <a href="#" class="navbar-item is-link plein-ecran">
+                        <span class="is-plein-ecran">Plein Écran</span>
+                    </a>
+
+                    <a href="#" class="navbar-item is-link ">
+                        Agenda </a>
+
+                    <a href="#" class="navbar-item is-link" target="_blank">
+                        Billetterie </a>
+
+                    <a class="navbar-item is-link" onclick="openMenu()">
+                        Menu
+                    </a>
+                </div>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    onclick="openMenu()">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <nav class="menu" id="main-menu">
+        <div class="menu-background"></div>
+
+        <div class="menu-primary">
+            <span class="menu-primary-close is-size-2 is-responsive" onclick="closeMenu()"></span>
+
+            <ul class="menu-primary-nav">
+                <li class="menu-primary-header is-hidden-tablet is-size-2 is-responsive">
+                    <a href="#">&nbsp;Gaîté Lyrique</a>
+                </li>
+
+                <li class="is-hidden-tablet is-size-2 is-responsive">
+                    <a href="#">
+                        Agenda </a>
+                </li>
+
+                <li class="is-hidden-tablet is-size-2 is-responsive">
+                    <a href="#" target="_blank">
+                        Billetterie </a>
+                </li>
+
+                <li class="has-submenu">
+                    <span class="is-size-2 is-responsive" tabindex="0">
+                        <span class="is-link">Programmes</span>
+                    </span>
+
+                    <ul class="menu-secondary">
+                        <li>
+                            <a href="#">
+                                Toute la saison </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Grands formats </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Festivals </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Nouvelles écritures et expériences immersives
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Musiques et spectacle vivant
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Laboratoire·s
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Capitaine futur
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Ateliers et masterclasses
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="has-submenu">
+                    <span class="is-size-2 is-responsive" tabindex="0">
+                        <span class="is-link">Avec vous</span>
+                    </span>
+
+                    <ul class="menu-secondary">
+                        <li>
+                            <a href="#">
+                                Artistes et communautés créatives
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Entreprises
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Écoles et universités
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Associations et champ social
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Familles
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="has-submenu">
+                    <span class="is-size-2 is-responsive" tabindex="0">
+                        <span class="is-link">Nous, la Gaîté</span>
+                    </span>
+
+                    <ul class="menu-secondary">
+                        <li>
+                            <a href="#">
+                                Projet
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Espaces
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Restauration
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Boutique
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Histoire
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Équipe
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Partenaires
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="is-size-2 is-responsive">
+                    <a href="#">
+                        Infos pratiques
+                    </a>
+                </li>
+
+                <li class="is-size-2 is-responsive">
+                    <a href="#">
+                        Lexique </a>
+                </li>
+
+                <li class="is-size-2 is-responsive">
+                    <form method="get" action="#">
+                        <label class="menu-search">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+                                <path
+                                    d="M58.5,55.6L43,40.1c3.5-4.2,5.7-9.6,5.7-15.5c0-6.4-2.5-12.4-7-17c-4.5-4.5-10.6-7-17-7c-13.2,0-24,10.8-24,24c0,6.4,2.5,12.4,7,17c4.5,4.5,10.6,7,17,7c0,0,0,0,0,0c5.9,0,11.3-2.1,15.5-5.7l15.5,15.5L58.5,55.6z M24.7,44.6C24.7,44.6,24.7,44.6,24.7,44.6c-5.3,0-10.4-2.1-14.1-5.9C6.8,35,4.7,30,4.7,24.6c0-11,9-20,20-20c5.3,0,10.4,2.1,14.1,5.9s5.9,8.8,5.9,14.1C44.7,35.7,35.7,44.6,24.7,44.6z">
+                                </path>
+                            </svg>
+
+                            <input class="input is-borderless is-size-2 is-responsive" name="s"
+                                placeholder="Rechercher">
+                        </label>
+                    </form>
+                </li>
+
+                <li class="is-size-2 is-responsive">
+                    <a href="#" class="is-plein-ecran">Plein Écran</a>
+                </li>
+            </ul>
+
+            <div class="level is-mobile">
+                <div class="level-left">
+                    <a class="button" rel="alternate" hreflang="en"
+                        href="https://gaite-lyrique.net/en/festival/pitchfork-music-festival-paris-2022">
+                        English version </a>
+                </div>
+
+                <div class="level-right">
+                    <ul class="menu-social-media">
+                        <li>
+                            <a href="#" target="_blank">
+                                <svg class="icon is-large">
+                                    <use xlink:href="#"></use>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#/" target="_blank">
+                                <svg class="icon is-large">
+                                    <use xlink:href="#"></use>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" target="_blank">
+                                <svg class="icon is-large">
+                                    <use xlink:href="#"></use>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" target="_blank">
+                                <svg class="icon is-large">
+                                    <use xlink:href="#"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section single-head">
+        <div class="container">
+            <div class="tags is-flex is-large">
+                <a class="tag" href="#">
+                    Exposition </a>
+
+                <a class="tag" href="#">
+                    Art génératif
+                </a>
+
+                <a class="tag" href="#">
+                    Code & programmation
+                </a>
+            </div>
+
+
+            <h2 class="subtitle is-4 is-size-6-mobile">
+                l’ordinateur artiste, panorama 1960-2022
+            </h2>
+<!--                                                                  
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################--> 
+
+<!-- ici commence le contenu à animer -->
+<div class="cover_aiart">
+<div class="cover_img">
+    <img id="background" src="gaiete_fichiers/img/background.gif">
+</div>
+<div class="sponsor" style="vertical-align:bottom;">
+    <svg id="ina" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230.15 230.02"><g id="Calque_1-2"><g><path d="M228.11,0H2.04C0,0,0,.01,0,2.06V227.95q0,2.07,2.03,2.07H228.11q2.04,0,2.04-2.06V2.07c0-2.06,0-2.07-2.04-2.07ZM43.83,55.93c4.76,.05,7.65,3.3,7.69,8.12,.02,3.96-2.99,7.41-8,7.33-4.04,.15-7.59-3.2-7.5-7.81,.09-4.36,3.41-7.68,7.81-7.64Zm157.13,93.1c-.11,.28-.56,.62-.84,.62-3.94-.13-7.93,.57-11.81-.85-3.44-1.25-5.77-3.51-7.1-6.87-.22-.55-.4-1.11-.68-1.86-.88,.85-1.62,1.56-2.37,2.24-3.45,3.15-6.95,6.25-11.53,7.73-6.85,2.21-13.72,2.19-20.62,.2-1.06-.31-2.19-.51-3.29-.52-10.76-.03-21.53-.02-32.3-.02-1.76,0-2.63-1.37-1.82-2.98,.14-.29,.67-.46,1.05-.54,1.72-.36,3.57-.42,4.75-2.01,.49-.64,1.07-1.32,1.24-2.08,.49-2.17,1.08-4.38,1.1-6.59,.11-9.94,.16-19.89-.04-29.83-.07-3.49-.64-7.06-2.47-10.21-2.42-4.14-5.94-6.52-10.81-6.74-3.55-.16-6.96,.16-10.1,2.11-3.76,2.34-6.43,5.57-8.18,9.6-1.66,3.84-2.08,7.91-2.12,12.03-.06,7.52-.05,15.04,.01,22.56,.02,1.89,.24,3.8,.6,5.66,.66,3.44,2.44,4.97,6.43,5.43,1.64,.19,1.38,1.19,1.42,2.2,.05,1.21-.68,1.4-1.68,1.4-19.72-.02-39.43-.01-59.15-.01-.84,0-1.64-.05-1.53-1.19,.1-.95-.55-2.18,1.28-2.42,1.4-.18,2.87-.68,4.06-1.42,1.98-1.23,2.24-3.53,2.62-5.57,.34-1.76,.31-3.6,.32-5.41,.02-13.11,.05-26.2-.05-39.3-.02-2.02-.52-4.1-1.14-6.05-.78-2.43-2.54-3.93-5.19-4.27-.88-.11-1.95-.03-1.93-1.51,.01-2.21-.02-2.25,2.18-2.25,5.53-.01,11.07-.01,16.6,0,1.98,0,2.43,.44,2.43,2.45,0,17.42-.02,34.84,.02,52.26,0,1.93,.15,3.9,.57,5.77,.63,2.8,2.19,4.94,5.37,5.14,2.49,.16,5.02,.4,7.48,.13,4.49-.49,5.33-2.15,6.32-6.47,.3-1.29,.34-2.66,.34-3.98,0-14.27,.01-28.54-.08-42.8-.02-2.81-.72-5.58-3.12-7.36-1.08-.81-2.54-1.22-3.89-1.49-1.74-.35-1.12-1.57-1.19-2.53-.08-1.05,.68-1.13,1.47-1.13,5.85,.01,11.68,0,17.51,.01,1.48,0,1.89,.45,1.9,1.99,.01,3.75,0,7.51,0,11.63,1.12-1.46,1.98-2.69,2.95-3.83,4.22-4.95,9.38-8.48,15.85-9.62,5.7-1.01,11.38-.88,16.67,1.93,4.26,2.27,6.75,6.03,8.61,10.34,1.89,4.39,2.14,9.07,2.21,13.71,.14,9.51,.03,19.02,.06,28.53,.01,1.68,.1,3.37,.36,5.02,.6,4.02,2.71,5.9,6.77,6.15,.75,.05,1.53,0,2.26,0-.95-1.47-2.06-2.77-2.71-4.26-2.85-6.57-1.67-12.6,2.95-17.93,3.97-4.59,9.25-7.29,14.77-9.55,5.25-2.14,10.71-3.58,16.27-4.67,2.92-.57,5.86-.98,8.81-1.37,.92-.12,1.3-.41,1.27-1.36-.1-3.37-.07-6.74-.24-10.1-.21-4.21-2.63-7.1-6.02-9.28-4.54-2.92-9.53-2.64-14.54-1.83-2.65,.42-5.06,1.42-7.08,3.24-1.51,1.37-1.66,2.76-.46,4.43,.6,.84,1.19,1.69,1.75,2.56,2.73,4.38,.61,9.71-4.31,11.19-5.37,1.62-11.18-2.58-11.18-8.35,0-5.07,2.5-8.77,6.07-11.94,4.94-4.4,10.82-6.57,17.33-7.41,5.21-.67,10.38-.58,15.4,.79,6.92,1.88,12.03,6,14.53,12.99,.94,2.62,1.38,5.26,1.38,7.99,.02,11.46-.03,22.91,.05,34.37,.02,1.99,.45,4,.91,5.96,.61,2.52,2.33,3.96,4.93,4.29,.21,.03,.42,.08,.64,.12,1.66,.32,2.3,1.39,1.7,2.98Z"/><path d="M180.35,118.91c-.34,3.43-.26,6.96-1.11,10.26-1.98,7.75-6.82,13.12-14.64,15.49-3.32,1-6.67,1.35-9.96-.2-2.85-1.34-4.63-3.58-5.3-6.62-.96-4.35-.61-8.57,1.78-12.48,1.27-2.07,3.1-3.57,5.14-4.81,4.48-2.73,9.47-4.11,14.52-5.28,2.56-.59,5.16-1.01,7.75-1.49,1.39-.25,1.55-.11,1.56,1.35v3.76c.09,.01,.17,.02,.26,.02Z"/></g></g></svg>
+    <svg id="arte" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494.5 122.14"><g id="Calque_1-2"><g><path d="M134.1,120.57c0,.52-.06,1.04-.09,1.56h-48.86v-28.68c-.82,.25-1.42,.41-2.01,.61-5.87,1.97-11.76,3.89-17.6,5.95-2.66,.94-5.4,1.86-7.78,3.32-4.71,2.9-7.03,9.71-2.61,15.3,.97,1.22,2.08,2.33,3.13,3.5H10.12c-.73-.45-1.47-.9-2.2-1.35C1.79,117.05-.7,111.13,.17,104c1.36-11.16,7.78-18.17,17.61-22.61,8.05-3.63,16.59-5.59,25.25-6.97,9.68-1.54,19.41-2.76,29.09-4.26,2.73-.43,5.46-1.15,8.05-2.1,5.59-2.06,6.91-8.5,2.78-12.86-1.93-2.04-4.4-3.03-7.05-3.54-4.61-.9-9.23-.95-13.81,.24-6.03,1.55-9.18,5.14-9.96,11.42H5.37c.42-2.28,.65-4.51,1.24-6.63,3.55-12.77,11.82-21.62,23.38-27.62,7.87-4.08,16.33-6.23,25.07-7.42,9.55-1.3,19.13-1.42,28.7-.62,12.22,1.02,24.19,3.17,34.99,9.44,7.26,4.21,12.67,10.01,14.59,18.45,.46,2.02,.73,4.13,.74,6.21,.05,21.81,.03,43.62,.03,65.44Z"/><path d="M492.69,68.75c-4.17-19.25-14.91-33.3-33.27-40.98-13.27-5.55-27.23-7.05-41.49-6.16-10.94,.68-21.46,3.15-31.37,7.9-12.17,5.83-21.46,14.58-26.85,27.15-3.18,7.41-4.55,15.2-4.82,23.22-.38,10.94,1.35,21.47,6.68,31.11,2.17,3.93,5.1,7.45,7.68,11.15h35.95c.03-7.56,.06-15.12,.09-22.68q.01-2.48,2.47-2.48c27.8,0,55.6,0,83.4,0h2.42c.09-.42,.15-.64,.18-.86,1.27-9.19,.89-18.33-1.07-27.37Zm-48.42,3.56c-6.45-.01-12.91,0-19.37,0s-12.68-.05-19.01,.03c-1.52,.02-2.01-.42-2.02-1.94-.08-10.41,6.73-17.83,17.15-18.46,4.71-.28,9.4-.13,13.89,1.66,8.14,3.24,10.96,10.42,11.2,17.32,.05,1.41-.85,1.39-1.84,1.39Z"/><path d="M351.22,51.82c0,1.48-.49,1.84-1.91,1.83-8.49-.06-16.98-.03-25.47-.03h-2.2c-.05,1.03-.12,1.89-.12,2.75,0,21.06,0,42.11-.01,63.16,0,.87-.06,1.74-.09,2.61h-26.18c-2.64-.31-5.33-.42-7.92-.97-7.66-1.64-13.22-7.93-14.32-16.09-.33-2.47-.51-4.97-.52-7.46-.05-13.78-.02-27.57-.02-41.35v-2.65h-2.07c-5.64,0-11.28-.03-16.92,.02-1.21,.01-1.62-.37-1.62-1.58,.03-9.01,.04-18.03,0-27.04,0-1.37,.55-1.63,1.78-1.61,5.58,.05,11.16-.05,16.74,.07,1.75,.03,2.14-.57,2.12-2.18-.07-6.4,0-12.79-.06-19.19-.01-1.51,.31-2.11,2.01-2.1C289.46,.07,304.47,.07,319.47,0c1.78-.01,2.1,.61,2.09,2.2-.07,6.34-.03,12.68-.02,19.02,0,.68,.09,1.36,.14,2.21h2.22c8.43,0,16.86,.03,25.3-.03,1.46-.01,2.05,.29,2.03,1.9-.07,8.84-.06,17.68,0,26.52Z"/><path d="M239.68,53.62h-1.91c-4.07,0-8.14-.05-12.21,.02-6.66,.11-12.54,2.1-17.11,7.23-3.03,3.41-4.22,7.54-4.26,11.89-.12,16.46-.03,32.92-.03,49.38h-49.91c.03-.75,.1-1.5,.1-2.26,0-31.29,0-62.59,0-93.88v-2.42h45.54v12.96c.14,.05,.28,.09,.42,.14,.28-.38,.57-.75,.82-1.14,5.87-9.26,14.29-13.98,25.24-14.26,4.04-.1,8.02,.2,11.85,1.54,.6,.21,1.4,1.01,1.4,1.55,.08,9.65,.06,19.31,.06,29.25Z"/></g></g></svg>
+</div>
+<div class="title">
+    <img id="gif" src="gaiete_fichiers/img/s_title.gif">
+    <img id="fix" src="gaiete_fichiers/img/s_fix.png">
+</div>
+<div class="parent_square_windows">
+    <div class="square"></div>
+    <div class="mouse_block">
+        <img id="souris" src="gaiete_fichiers/img/mouse.png">
+    </div>
+    <div class="box_windows">
+        <div class="window">
+            <div class="cross"></div>
+            <p id="p_cadre">Exposition<br><em id="i">du</em> 6 septembre 2022<br><em id="i">au</em> 2 février 2023</p>
+        </div>
+        <div class="window" style="position: absolute; margin-top: -40px; margin-left: 40px">
+            <div class="cross"></div>
+            <p id="p_cadre">Exposition<br><em id="i">du</em> 6 septembre 2022<br><em id="i">au</em> 2 février 2023</p>
+        </div>
+        <div class="window" style="position: absolute; margin-top: -80px; margin-left: 80px;">
+            <div class="cross"></div>
+            <p id="p_cadre">Exposition<br><em id="i">du</em> 6 septembre 2022<br><em id="i">au</em> 2 février 2023</p>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="pointJaune"></div>-->
+
+<div class="rectOrange"></div>
+
+
+
+
+
+</div>
+<!-- ici se termine le contenu à animer, n'éditez le reste qu'à vos risques et périls -->
+<!--                                                                  
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################
+##########################################################################################################--> 
+
+
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns content-with-aside">
+                <div class="column is-8">
+                    <div class="content">
+                        <p class="intro">
+                            Depuis les débuts de l’informatique,les machines ont été utilisées par
+                            des plasticien·ne·s et artistes pour générer des formes (<b>Manfred Mohr</b>, <b>Ken
+                                Knowlton</b>, <b>Vera Molnár</b>...) mais depuis quelques années, les progrès de ce
+                            qu’on appelle généralement «Intelligence artificielle» (réseaux de neurones, machine
+                            learning, réseaux antagonistes génératifs...) font émerger des quantités significatives
+                            d’images générées par ordinateurs
+                        </p>
+
+                        <p><span style="font-weight: 400;">En novembre,
+                                Pitchfork Music Festival Paris poursuit l’exploration entamée avec ses
+                                précédentes éditions en proposant une sélection artistique ambitieuse.
+                                Pour résumer ? Découvrir sur scène, en live, le meilleur de la musique
+                                indépendante internationale.</span></p>
+                        <p><span style="font-weight: 400;">Les 14, 15 et 16.11.2022, la Gaîté
+                                Lyrique accueille trois soirées majeures du festival avec la révélation
+                                du post-rock britannique Black Country, New Road, qui sera accompagnée
+                                des Américains de Dehd. Au programme également, le quatuor de Brighton
+                                Porridge Radio, la synth-pop entêtante de Nation Of Language ou encore
+                                les rockeurs énervés de TV Priest. Sans oublier les génies du jazz-rock
+                                londonien The Comet Is Coming ainsi que le chanteur et percussionniste
+                                Falle Nioke, pour une série de concerts pas comme les autres.</span></p>
+                        <div>
+                            <h3>Tout le programme !</h3>
+                            <h4><a href="#"><strong>14.11.22 :&nbsp;<span class="s1">Black Country, New Road, O.,
+                                            Deadletter</span></strong></a></h4>
+                            <ul>
+                                <li><strong>Black Country, New Road<br></strong>Trouver le nom de son
+                                    groupe via le mode aléatoire de Wikipédia ? C’est la boutade absurde
+                                    qu’ont tenté les membres de Black Country, New Road, groupe londonien
+                                    dont la musique fait preuve de la même liberté virevoltante. Après deux
+                                    albums remarquables et remarqués, faisant du groupe un des plus attendus
+                                    actuellement, Black Country, New Road vient prouver sa folie en live
+                                    dans la Grande salle de la Gaîté Lyrique.<br><br></li>
+                                <li data-stringify-indent="0" data-stringify-border="0"><strong>O.</strong></li>
+                                <li data-stringify-indent="0" data-stringify-border="0"><strong>Deadletter</strong></li>
+                            </ul>
+                            <h4><a href="#"><strong>15.11.22 : </strong><span class="s1"><strong>Porridge Radio, Nation
+                                            Of Language, TV Priest</strong></span></a></h4>
+                            <ul>
+                                <li><strong>Porridge Radio</strong><strong><br></strong>En moins d’un
+                                    an, Porridge Radio, fondé en 2014 en Angleterre, est passé du statut de
+                                    chouchou de l'underground à celui de groupe parmi les plus excitants du
+                                    Royaume-Uni. Leur esprit acéré, leur intensité lacrymale et leur
+                                    puissant mélange d'indie-pop et de post-punk ne ressemblent à rien de
+                                    comparable et a permis à leur album <em>Every Bad </em>(2020) de figurer sur la
+                                    liste du très convoité Mercury Music Prize. Tout de même.<br><br></li>
+                                <li><strong>Nation Of Language<br></strong>Trio venu de Brooklyn, Nation
+                                    Of Language propose une synth-pop quelque part entre The National et
+                                    Depeche Mode, New Order ou encore Orchestral Manoeuvres In The Dark. La
+                                    légende raconte même que le groupe est né suite à une écoute intensive
+                                    du tube <em>Electricity</em> de ces derniers... Après le revival
+                                    post-punk, Nation Of Language surfe sur un certain retour des
+                                    synthétiseurs 80’s, un peu à la façon d’un Alex Cameron.<br><br></li>
+                                <li><strong>TV Priest<br></strong>Qu’est-ce que c’est, TV Priest ?
+                                    D'abord, quatre amis anglais qui ont fait de la musique ensemble pendant
+                                    l’adolescence, avant que leurs chemins ne se séparent, puis ne se
+                                    retrouvent, inévitablement. Ensuite, c’est une musique qui a beaucoup à
+                                    dire et qui s’inspire aussi bien de The Fall et Protomartyr que des
+                                    grooves de la Kosmische Musik. Enfin, c’est une expérience intense à
+                                    vivre en live. Tout simplement.</li>
+                            </ul>
+                            <h4><a href="#"><strong>16.11.22 :&nbsp;</strong><span class="s1"><strong>The Comet Is
+                                            Coming, Falle Nioke &amp; NNAMDÏ</strong></span></a></h4>
+                            <ul>
+                                <li><strong>The Comet Is Coming<br></strong>Encore des Anglais avec The
+                                    Comet Is Coming, groupe basé à Londres et qui mélange le jazz,
+                                    l’électro, le funk et le rock psychédélique. Au lendemain de
+                                    l'apocalypse actuelle, quels sons restera-t-il ? Qui nous conduira dans
+                                    l'au-delà ? Et comment ? La fin est-elle autre chose qu’un
+                                    recommencement ? Voilà le genre de questions simples auxquelles The
+                                    Comet Is Coming propose tranquillement de répondre avec sa musique.<br><br></li>
+                                <li><strong>Falle Nioke<br></strong>Chanteur et percussionniste
+                                    originaire de Guinée, Falle Nioke a collaboré avec des producteurs comme
+                                    Ghost Culture, Sir Was, Congo Natty ou encore Johan Hugo. Aidé de sa
+                                    grosse communauté de fans, Falle Nioke a désormais signé sur un label
+                                    londonien, où sortent désormais des morceaux et des ep qui ne manquent
+                                    pas de se faire remarquer. La suite de l’histoire ? Rendez-vous sur
+                                    scène à la Gaîté Lyrique !<br><br></li>
+                                <li data-stringify-indent="0" data-stringify-border="0"><strong
+                                        data-stringify-type="bold">NNAMDÏ<br></strong>NNAMDÏ
+                                    ne reste jamais en place bien longtemps : ce multi-instrumentiste et
+                                    auteur-compositeur de Chicago multiplie les sorties en même temps qu’il
+                                    mène Sooper Records, le label qu’il a cofondé. Pourtant, son dernier
+                                    album, Please Have A Seat, est le fruit d’une pause bien méritée, d’une
+                                    période de réflexion qui lui a permis de créer l’œuvre la plus
+                                    ambitieuse, accessible et nuancée de sa carrière... qu’on a hâte de
+                                    découvrir sur scène !<strong><br><br></strong></li>
+                            </ul>
+                        </div>
+                        <h3><span style="font-weight: 400;"><a class="button" href="#">Pass 3 jours</a><br></span></h3>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <aside class="aside">
+                        <div class="info">
+
+                            <div class="block">
+                                <div class="is-size-3 is-size-4-mobile has-text-weight-light">
+                                    06.09.23 - 02.02.24
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+                            <div class="aside-section">
+                                <ul class="links">
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <span class="link">Le site officiel de Pitchfork Music Festival</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <span class="link">Pass 3 jours</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <span class="link">Événement Facebook</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <span class="link">14.11.22 • Black Country, New Road, Deadletter, O.</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <span class="link">15.11.22 • Porridge Radio, Nation Of Language, TV
+                                                Priest</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <span class="link">16.11.22 • The Comet Is Coming, Falle Nioke &amp;
+                                                NNAMDÏ</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section">
+
+
+        <h3 class="title is-3 is-size-4-mobile section-title">
+            Événements passés </h3>
+
+        <div class="columns is-multiline">
+            <div class="column is-4">
+                <div class="event thumb">
+
+                    <a href="#">
+                        <div class="wrapper">
+                            <div class="image is-16by9">
+                                <img src="gaiete_fichiers/gaite-1920x1080-artiste-1511-sanstexte_cover.png"
+                                    loading="lazy"
+                                    srcset="gaiete_fichiers/gaite-1920x1080-artiste-1511-sanstexte_thumb.png 640w, gaiete_fichiers/gaite-1920x1080-artiste-1511-sanstexte_large.png 1280w, gaiete_fichiers/gaite-1920x1080-artiste-1511-sanstexte_cover.png 1920w"
+                                    sizes="(min-width: 769px) 33.333333333333vw, 100vw"
+                                    alt="Pitchfork Music Festival Paris 2022&amp;nbsp;: Porridge Radio, Nation Of Language, TV Priest">
+
+                            </div>
+
+                            <div class="tags is-flex is-lowercase">
+                                <div class="tag">Concert</div>
+                                <div class="tag">Festival</div>
+                            </div>
+
+                            <h3 class="title is-3 is-size-4-mobile">
+                                Pitchfork Music Festival Paris 2022&nbsp;: Porridge Radio, Nation Of Language, TV Priest
+                            </h3>
+                        </div>
+                    </a>
+
+                    <h4 class="subtitle is-6">
+                        15.11.22
+                    </h4>
+
+
+                    <p class="date">
+                        15.11.22 à 19h
+                    </p>
+
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="event thumb">
+
+                    <a href="#">
+                        <div class="wrapper">
+                            <div class="image is-16by9">
+                                <img src="gaiete_fichiers/gaite-1411_cover.png" loading="lazy"
+                                    srcset="gaiete_fichiers/gaite-1411_thumb.png 640w, gaiete_fichiers/gaite-1411_large.png 1280w, gaiete_fichiers/gaite-1411_cover.png 1920w"
+                                    sizes="(min-width: 769px) 33.333333333333vw, 100vw"
+                                    alt="Pitchfork Music Festival Paris 2022&amp;nbsp;: Black Country, New Road, Deadletter, O.">
+
+                            </div>
+
+                            <div class="tags is-flex is-lowercase">
+                                <div class="tag">Concert</div>
+                                <div class="tag">Festival</div>
+                            </div>
+
+                            <h3 class="title is-3 is-size-4-mobile">
+                                Pitchfork Music Festival Paris 2022&nbsp;: Black Country, New Road, Deadletter, O.
+                            </h3>
+                        </div>
+                    </a>
+
+                    <h4 class="subtitle is-6">
+                        Lundi 14.11.22
+                    </h4>
+
+
+                    <p class="date">
+                        14.11.22 à 19h
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <footer class="footer pt-6">
+        <section class="section footer-social">
+            <div class="container has-text-centered">
+                <img class="asset" src="gaiete_fichiers/logo_alt.webp" loading="lazy" alt="La Gaîté Lyrique"
+                    width="400">
+
+                <ul class="footer-social-media">
+                    <li>
+                        <a href="#" target="_blank">
+                            <svg class="icon is-large">
+                                <use xlink:href="https://gaite-lyrique.net/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <svg class="icon is-large">
+                                <use xlink:href="https://gaite-lyrique.net/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <svg class="icon is-large">
+                                <use xlink:href="https://gaite-lyrique.net/icons.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <svg class="icon is-large">
+                                <use xlink:href="https://gaite-lyrique.net/icons.svg#youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section footer-text">
+            <div class="container">
+
+                <div class="content is-size-3 is-responsive">
+                    <p>La Gaîté Lyrique est un établissement culturel de la Ville de Paris <img loading="lazy"
+                            class="is-inline" src="gaiete_fichiers/paris3.webp"> qui met en lumière les cultures
+                        post-Internet <span class="is-inline-block"><img loading="lazy" class="is-inline"
+                                src="gaiete_fichiers/postinternet3.webp">.</span> Ces pratiques artistiques, nées et
+                        transformées par Internet <span class="is-inline-block"><img loading="lazy" class="is-inline"
+                                src="gaiete_fichiers/internet1.webp">,</span>
+                        sont ici exposées, mais aussi imaginées, fabriquées, expérimentées et
+                        transmises. Espace de découverte pour comprendre notre époque
+                        virtualisée, c’est aussi un lieu de fête <span class="is-inline-block"><img loading="lazy"
+                                class="is-inline" src="gaiete_fichiers/party4.webp">,</span> de créativité et de
+                        partage. <img loading="lazy" class="is-inline" src="gaiete_fichiers/happy2.webp"></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section footer-practical">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="footer-item">
+                            <div class="content">
+                                <p>
+                                    <strong>La Gaîté Lyrique</strong><br>
+                                    <em>Musiques &amp; futurs alternatifs</em>
+                                </p>
+                            </div>
+
+                            <div class="mairie-paris">
+                                <a href="#" target="_blank" title="Mairie de Paris">
+                                    <img class="asset" loading="lazy" src="gaiete_fichiers/mairie_paris.svg"
+                                        alt="Mairie de Paris" width="50" height="50">
+                                </a>
+
+                                <p>Établissement culturel<br>de la Ville de Paris</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="footer-item">
+                            <div class="content">
+                                <p>
+                                    <span class="is-uppercase">Adresse</span><br>
+                                    3bis rue Papin<br>
+                                    75003 Paris
+                                </p>
+
+                                <p>
+                                    <span class="is-uppercase">Horaires</span><br>
+                                    Mardi - Vendredi : 14h-18h<br>Samedi - Dimanche : 12h-18h<br>Ouverture les soirs en
+                                    fonction de la programmation<br>Fermeture le lundi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="footer-item">
+                            <div class="content">
+                                <p>
+                                    <span class="is-uppercase">Accueil</span><br>
+                                    <a href="tel:+33153015200">01 53 01 52 00</a><br>
+                                    <a href="#">contact@gaite-lyrique.net</a>
+                                </p>
+
+                                <p>
+                                    <span class="is-uppercase">Billetterie</span><br>
+                                    <a href="tel:+33153015151">01 53 01 51 51</a><br>
+                                    <a href="#">billetterie@gaite-lyrique.net</a>
+                                </p>
+                            </div>
+
+                            <ul class="links">
+                                <li>
+                                    <a href="#">
+                                        Toutes les infos pratiques </a>
+                                </li>
+                            </ul>
+
+                            <ul class="links">
+                                <li>
+                                    <a href="#">
+                                        FAQ </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="footer-item">
+                            <ul class="links">
+                                <li>
+                                    <a href="#">
+                                        Nous, la Gaîté </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Newsletter </a>
+                                </li>
+
+
+                                <li>
+                                    <a href="#">
+                                        Magazine </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Espace recrutement </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Espace presse </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Espace entreprises </a>
+                                </li>
+                            </ul>
+
+                            <ul class="links">
+                                <li>
+                                    <a href="#">
+                                        Notre politique RSE
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Déclaration relative aux Cookies
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Conditions Générales de Vente
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Politique de confidentialité
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Mentions légales et Conditions Générales d'Utilisation
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <script type="text/javascript" src="gaiete_fichiers/manifest.js"></script>
+    <script type="text/javascript" src="gaiete_fichiers/vendor.js"></script>
+    <script type="text/javascript" src="gaiete_fichiers/app.js"></script>
+
+
+    <script type="text/javascript" src="gaiete_fichiers/tarteaucitron.js"></script>
+    <script type="text/javascript">
+        var lang = 'fr';
+        var tarteaucitronForceExpire = 186;
+
+        if (lang.length) {
+            var tarteaucitronForceLanguage = lang;
+        }
+
+        var privaryPolicyUrl = '';
+
+        privaryPolicyUrl = "#";
+
+        // minnit
+        tarteaucitron.services.minnit = {
+            key: "minnit",
+            type: "social",
+            name: "Minnit.chat",
+            needConsent: true,
+            cookies: [
+                'minnitid', 'minnituuid', 'minnitavatar', 'minnitnickname', 'minnitcsrf',
+                'lang', 'g_auth_v', 'suppress_same_site', 'signin_token',
+                'paddlejs_checkout_variant', 'paddlejs_campaign_referrer',
+                '__cflb', '__cfduid',
+                'connid-chat-[ID]',
+            ],
+            js: function () {
+                "use strict";
+                tarteaucitron.fallback(['minnit_chat'], function (x) {
+                    var chatroom = x.getAttribute('data-chatroom');
+
+                    if (chatroom === undefined) {
+                        return "";
+                    }
+
+                    var src = 'https://minnit.chat/' + chatroom + '?embed&&nickname=';
+
+                    return '<iframe src="' + src + '" allowTransparency="true"></iframe>';
+                });
+            },
+            fallback: function () {
+                "use strict";
+                tarteaucitron.fallback(['minnit_chat'], function (elem) {
+                    return tarteaucitron.engage('minnit');
+                });
+            }
+        };
+
+        tarteaucitron.init({
+            "privacyUrl": privaryPolicyUrl, /* Privacy policy url */
+
+            "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+            "cookieName": "tarteaucitron", /* Cookie name */
+
+            "orientation": "bottom", /* Banner position (top - bottom) */
+            "showAlertSmall": false, /* Show the small banner on bottom right */
+            "cookieslist": true, /* Show the cookie list */
+
+            "adblocker": false, /* Show a Warning if an adblocker is detected */
+            "showIcon": false, /* Show cookie icon to manage cookies */
+            "DenyAllCta": true, /* Show the deny all button */
+            "AcceptAllCta": true, /* Show the accept all button when highPrivacy on */
+            "highPrivacy": true, /* Disable auto consent */
+            "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+
+            "removeCredit": true, /* Remove credit link */
+            "moreInfoLink": true, /* Show more info link */
+            "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
+
+            "readmoreLink": privaryPolicyUrl /* Change the default readmore link */
+        });
+
+        tarteaucitron.user.gtagUa = 'UA-117237072-1';
+        (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
+
+        tarteaucitron.user.googletagmanagerId = 'GTM-WF43GPB';
+        (tarteaucitron.job = tarteaucitron.job || []).push('googletagmanager');
+
+        (tarteaucitron.job = tarteaucitron.job || []).push('youtube');
+        (tarteaucitron.job = tarteaucitron.job || []).push('vimeo');
+        (tarteaucitron.job = tarteaucitron.job || []).push('facebook');
+        (tarteaucitron.job = tarteaucitron.job || []).push('instagram');
+        (tarteaucitron.job = tarteaucitron.job || []).push('soundcloud');
+        (tarteaucitron.job = tarteaucitron.job || []).push('ausha');
+        (tarteaucitron.job = tarteaucitron.job || []).push('minnit');
+        (tarteaucitron.job = tarteaucitron.job || []).push('acast');
+    </script>
+
+
+    <div id="tarteaucitronRoot" data-nosnippet="true" role="region" aria-labelledby="tac_title" lang="fr">
+        <div role="heading" aria-level="1" id="tac_title" class="tac_visually-hidden">Panneau de gestion des cookies
+        </div>
+        <div id="tarteaucitronPremium"></div><button type="button" id="tarteaucitronBack" aria-label="Fermer"
+            title="Fermer"></button>
+        <div id="tarteaucitron" role="dialog" aria-modal="true" aria-labelledby="dialogTitle" tabindex="-1"> <button
+                type="button" id="tarteaucitronClosePanel"> Fermer </button>
+            <div id="tarteaucitronServices">
+                <div class="tarteaucitronLine tarteaucitronMainLine tarteaucitronIsAllowed"
+                    id="tarteaucitronMainLineOffset"> <span class="tarteaucitronH1" role="heading" aria-level="1"
+                        id="dialogTitle">Panneau de gestion des cookies</span>
+                    <div id="tarteaucitronInfo">
+                        En autorisant ces services tiers, vous acceptez le dépôt et la
+                        lecture de cookies et l'utilisation de technologies de suivi nécessaires
+                        à leur bon fonctionnement. <br><br> <button type="button" id="tarteaucitronPrivacyUrlDialog"
+                            role="link"> Déclaration relative aux cookies </button> </div>
+                    <div class="tarteaucitronName"> <span class="tarteaucitronH2" role="heading"
+                            aria-level="2">Préférences pour tous les services</span> </div>
+                    <div class="tarteaucitronAsk" id="tarteaucitronScrollbarAdjust"> <button type="button"
+                            id="tarteaucitronAllAllowed" class="tarteaucitronAllow tarteaucitronIsSelected"
+                            aria-pressed="true"> <span class="tarteaucitronCheck" aria-hidden="true"></span> Tout
+                            accepter </button> <button type="button" id="tarteaucitronAllDenied"
+                            class="tarteaucitronDeny" aria-pressed="false"> <span class="tarteaucitronCross"
+                                aria-hidden="true"></span> Tout refuser </button> </div>
+                </div>
+                <div class="tarteaucitronBorder">
+                    <div class="clear"></div>
+                    <ul>
+                        <li id="tarteaucitronServicesTitle_mandatory">
+                            <div class="tarteaucitronTitle"> <button type="button" tabindex="-1"><span
+                                        class="tarteaucitronPlus" aria-hidden="true"></span> Cookies
+                                    obligatoires</button></div>
+                            <ul id="tarteaucitronServices_mandatory">
+                                <li class="tarteaucitronLine">
+                                    <div class="tarteaucitronName"> <span class="tarteaucitronH3" role="heading"
+                                            aria-level="3">Ce site utilise des cookies nécessaires à son bon
+                                            fonctionnement. Ils ne peuvent pas être désactivés.</span> <span
+                                            class="tarteaucitronListCookies" aria-hidden="true"></span><br> </div>
+                                    <div class="tarteaucitronAsk"> <button type="button" class="tarteaucitronAllow"
+                                            tabindex="-1" disabled="disabled"> <span class="tarteaucitronCheck"
+                                                aria-hidden="true"></span> Autoriser </button> <button type="button"
+                                            class="tarteaucitronDeny" style="visibility:hidden" tabindex="-1"> <span
+                                                class="tarteaucitronCross" aria-hidden="true"></span> Interdire
+                                        </button> </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="tarteaucitronServicesTitle_api" class="tarteaucitronHidden" style="display: block;">
+                            <div class="tarteaucitronTitle" role="heading" aria-level="2"> <button type="button"
+                                    class="catToggleBtn" aria-expanded="false" data-cat="tarteaucitronDetailsapi"
+                                    data-index="0"><span class="tarteaucitronPlus" aria-hidden="true"></span>
+                                    APIs</button> </div>
+                            <div id="tarteaucitronDetailsapi" class="tarteaucitronDetails tarteaucitronInfoBox"> Les
+                                APIs permettent de charger des scripts : géolocalisation, moteurs de recherche,
+                                traductions, ... </div>
+                            <ul id="tarteaucitronServices_api">
+                                <li id="googletagmanagerLine" class="tarteaucitronLine tarteaucitronIsAllowed">
+                                    <div class="tarteaucitronName"> <span class="tarteaucitronH3" role="heading"
+                                            aria-level="3">Google Tag Manager</span> <span class="tacCurrentStatus"
+                                            id="tacCurrentStatusgoogletagmanager">autorisé</span> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <span
+                                            id="tacCLgoogletagmanager" class="tarteaucitronListCookies">Ce service a
+                                            déposé 2 cookies.</span><br> <a
+                                            href="https://gaite-lyrique.net/declaration-relative-aux-cookies"
+                                            target="_blank" rel="noreferrer noopener nofollow"
+                                            title="En savoir plus : Détail des cookies Google Tag Manager sur notre site (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreInfo"> En savoir plus </a> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <a
+                                            href="https://policies.google.com/privacy" target="_blank"
+                                            rel="noreferrer noopener"
+                                            title="Voir le site officiel Google Tag Manager (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreOfficial"> Voir le site officiel </a> </div>
+                                    <div class="tarteaucitronAsk"> <button type="button"
+                                            aria-label="Autoriser Google Tag Manager" id="googletagmanagerAllowed"
+                                            class="tarteaucitronAllow" aria-pressed="true"> <span
+                                                class="tarteaucitronCheck" aria-hidden="true"></span> Autoriser
+                                        </button> <button type="button" aria-label="Interdire Google Tag Manager"
+                                            id="googletagmanagerDenied" class="tarteaucitronDeny" aria-pressed="false">
+                                            <span class="tarteaucitronCross" aria-hidden="true"></span> Interdire
+                                        </button> </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="tarteaucitronServicesTitle_other" class="tarteaucitronHidden">
+                            <div class="tarteaucitronTitle" role="heading" aria-level="2"> <button type="button"
+                                    class="catToggleBtn" aria-expanded="false" data-cat="tarteaucitronDetailsother"
+                                    data-index="1"><span class="tarteaucitronPlus" aria-hidden="true"></span>
+                                    Autre</button> </div>
+                            <div id="tarteaucitronDetailsother" class="tarteaucitronDetails tarteaucitronInfoBox">
+                                Services visant à afficher du contenu web. </div>
+                            <ul id="tarteaucitronServices_other"></ul>
+                        </li>
+                        <li id="tarteaucitronServicesTitle_comment" class="tarteaucitronHidden">
+                            <div class="tarteaucitronTitle" role="heading" aria-level="2"> <button type="button"
+                                    class="catToggleBtn" aria-expanded="false" data-cat="tarteaucitronDetailscomment"
+                                    data-index="2"><span class="tarteaucitronPlus" aria-hidden="true"></span>
+                                    Commentaires</button> </div>
+                            <div id="tarteaucitronDetailscomment" class="tarteaucitronDetails tarteaucitronInfoBox"> Les
+                                gestionnaires de commentaires facilitent le dépôt de vos commentaires et luttent contre
+                                le spam. </div>
+                            <ul id="tarteaucitronServices_comment"></ul>
+                        </li>
+                        <li id="tarteaucitronServicesTitle_analytic" class="tarteaucitronHidden"
+                            style="display: block;">
+                            <div class="tarteaucitronTitle" role="heading" aria-level="2"> <button type="button"
+                                    class="catToggleBtn" aria-expanded="false" data-cat="tarteaucitronDetailsanalytic"
+                                    data-index="3"><span class="tarteaucitronPlus" aria-hidden="true"></span> Mesure
+                                    d'audience</button> </div>
+                            <div id="tarteaucitronDetailsanalytic" class="tarteaucitronDetails tarteaucitronInfoBox">
+                                Les services de mesure d'audience permettent de générer
+                                des statistiques de fréquentation utiles à l'amélioration du site.
+                            </div>
+                            <ul id="tarteaucitronServices_analytic">
+                                <li id="gtagLine" class="tarteaucitronLine tarteaucitronIsAllowed">
+                                    <div class="tarteaucitronName"> <span class="tarteaucitronH3" role="heading"
+                                            aria-level="3">Google Analytics (GA4)</span> <span class="tacCurrentStatus"
+                                            id="tacCurrentStatusgtag">autorisé</span> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <span id="tacCLgtag"
+                                            class="tarteaucitronListCookies">Ce service a déposé 3 cookies.</span><br>
+                                        <a href="https://gaite-lyrique.net/declaration-relative-aux-cookies"
+                                            target="_blank" rel="noreferrer noopener nofollow"
+                                            title="En savoir plus : Détail des cookies Google Analytics (GA4) sur notre site (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreInfo"> En savoir plus </a> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <a
+                                            href="https://policies.google.com/privacy" target="_blank"
+                                            rel="noreferrer noopener"
+                                            title="Voir le site officiel Google Analytics (GA4) (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreOfficial"> Voir le site officiel </a> </div>
+                                    <div class="tarteaucitronAsk"> <button type="button"
+                                            aria-label="Autoriser Google Analytics (GA4)" id="gtagAllowed"
+                                            class="tarteaucitronAllow" aria-pressed="true"> <span
+                                                class="tarteaucitronCheck" aria-hidden="true"></span> Autoriser
+                                        </button> <button type="button" aria-label="Interdire Google Analytics (GA4)"
+                                            id="gtagDenied" class="tarteaucitronDeny" aria-pressed="false"> <span
+                                                class="tarteaucitronCross" aria-hidden="true"></span> Interdire
+                                        </button> </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="tarteaucitronServicesTitle_ads" class="tarteaucitronHidden">
+                            <div class="tarteaucitronTitle" role="heading" aria-level="2"> <button type="button"
+                                    class="catToggleBtn" aria-expanded="false" data-cat="tarteaucitronDetailsads"
+                                    data-index="4"><span class="tarteaucitronPlus" aria-hidden="true"></span> Régies
+                                    publicitaires</button> </div>
+                            <div id="tarteaucitronDetailsads" class="tarteaucitronDetails tarteaucitronInfoBox">
+                                Les régies publicitaires permettent de générer des
+                                revenus en commercialisant les espaces publicitaires du site.
+                            </div>
+                            <ul id="tarteaucitronServices_ads"></ul>
+                        </li>
+                        <li id="tarteaucitronServicesTitle_social" class="tarteaucitronHidden" style="display: block;">
+                            <div class="tarteaucitronTitle" role="heading" aria-level="2"> <button type="button"
+                                    class="catToggleBtn" aria-expanded="false" data-cat="tarteaucitronDetailssocial"
+                                    data-index="5"><span class="tarteaucitronPlus" aria-hidden="true"></span> Réseaux
+                                    sociaux</button> </div>
+                            <div id="tarteaucitronDetailssocial" class="tarteaucitronDetails tarteaucitronInfoBox">
+                                Les réseaux sociaux permettent d'améliorer la
+                                convivialité du site et aident à sa promotion via les partages.
+                            </div>
+                            <ul id="tarteaucitronServices_social">
+                                <li id="facebookLine" class="tarteaucitronLine tarteaucitronIsAllowed">
+                                    <div class="tarteaucitronName"> <span class="tarteaucitronH3" role="heading"
+                                            aria-level="3">Facebook</span> <span class="tacCurrentStatus"
+                                            id="tacCurrentStatusfacebook">autorisé</span> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <span id="tacCLfacebook"
+                                            class="tarteaucitronListCookies">Ce service n'a déposé aucun
+                                            cookie.</span><br> <a
+                                            href="https://gaite-lyrique.net/declaration-relative-aux-cookies"
+                                            target="_blank" rel="noreferrer noopener nofollow"
+                                            title="En savoir plus : Détail des cookies Facebook sur notre site (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreInfo"> En savoir plus </a> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <a
+                                            href="https://www.facebook.com/policy.php" target="_blank"
+                                            rel="noreferrer noopener"
+                                            title="Voir le site officiel Facebook (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreOfficial"> Voir le site officiel </a> </div>
+                                    <div class="tarteaucitronAsk"> <button type="button" aria-label="Autoriser Facebook"
+                                            id="facebookAllowed" class="tarteaucitronAllow" aria-pressed="true"> <span
+                                                class="tarteaucitronCheck" aria-hidden="true"></span> Autoriser
+                                        </button> <button type="button" aria-label="Interdire Facebook"
+                                            id="facebookDenied" class="tarteaucitronDeny" aria-pressed="false"> <span
+                                                class="tarteaucitronCross" aria-hidden="true"></span> Interdire
+                                        </button> </div>
+                                </li>
+                                <li id="instagramLine" class="tarteaucitronLine tarteaucitronIsAllowed">
+                                    <div class="tarteaucitronName"> <span class="tarteaucitronH3" role="heading"
+                                            aria-level="3">Instagram</span> <span class="tacCurrentStatus"
+                                            id="tacCurrentStatusinstagram">autorisé</span> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <span id="tacCLinstagram"
+                                            class="tarteaucitronListCookies">Ce service n'a déposé aucun
+                                            cookie.</span><br> <a
+                                            href="https://gaite-lyrique.net/declaration-relative-aux-cookies"
+                                            target="_blank" rel="noreferrer noopener nofollow"
+                                            title="En savoir plus : Détail des cookies Instagram sur notre site (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreInfo"> En savoir plus </a> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <a
+                                            href="https://www.instagram.com/legal/privacy/" target="_blank"
+                                            rel="noreferrer noopener"
+                                            title="Voir le site officiel Instagram (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreOfficial"> Voir le site officiel </a> </div>
+                                    <div class="tarteaucitronAsk"> <button type="button"
+                                            aria-label="Autoriser Instagram" id="instagramAllowed"
+                                            class="tarteaucitronAllow" aria-pressed="true"> <span
+                                                class="tarteaucitronCheck" aria-hidden="true"></span> Autoriser
+                                        </button> <button type="button" aria-label="Interdire Instagram"
+                                            id="instagramDenied" class="tarteaucitronDeny" aria-pressed="false"> <span
+                                                class="tarteaucitronCross" aria-hidden="true"></span> Interdire
+                                        </button> </div>
+                                </li>
+                                <li id="minnitLine" class="tarteaucitronLine tarteaucitronIsAllowed">
+                                    <div class="tarteaucitronName"> <span class="tarteaucitronH3" role="heading"
+                                            aria-level="3">Minnit.chat</span> <span class="tacCurrentStatus"
+                                            id="tacCurrentStatusminnit">autorisé</span> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <span id="tacCLminnit"
+                                            class="tarteaucitronListCookies">Ce service n'a déposé aucun
+                                            cookie.</span><br> <a
+                                            href="https://gaite-lyrique.net/declaration-relative-aux-cookies"
+                                            target="_blank" rel="noreferrer noopener nofollow"
+                                            title="En savoir plus : Détail des cookies Minnit.chat sur notre site (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreInfo"> En savoir plus </a> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <a
+                                            href="https://gaite-lyrique.net/festival/undefined" target="_blank"
+                                            rel="noreferrer noopener"
+                                            title="Voir le site officiel Minnit.chat (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreOfficial"> Voir le site officiel </a> </div>
+                                    <div class="tarteaucitronAsk"> <button type="button"
+                                            aria-label="Autoriser Minnit.chat" id="minnitAllowed"
+                                            class="tarteaucitronAllow" aria-pressed="true"> <span
+                                                class="tarteaucitronCheck" aria-hidden="true"></span> Autoriser
+                                        </button> <button type="button" aria-label="Interdire Minnit.chat"
+                                            id="minnitDenied" class="tarteaucitronDeny" aria-pressed="false"> <span
+                                                class="tarteaucitronCross" aria-hidden="true"></span> Interdire
+                                        </button> </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="tarteaucitronServicesTitle_support" class="tarteaucitronHidden">
+                            <div class="tarteaucitronTitle" role="heading" aria-level="2"> <button type="button"
+                                    class="catToggleBtn" aria-expanded="false" data-cat="tarteaucitronDetailssupport"
+                                    data-index="6"><span class="tarteaucitronPlus" aria-hidden="true"></span>
+                                    Support</button> </div>
+                            <div id="tarteaucitronDetailssupport" class="tarteaucitronDetails tarteaucitronInfoBox">
+                                Les services de support vous permettent d'entrer en
+                                contact avec l'équipe du site et d'aider à son amélioration. </div>
+                            <ul id="tarteaucitronServices_support"></ul>
+                        </li>
+                        <li id="tarteaucitronServicesTitle_video" class="tarteaucitronHidden" style="display: block;">
+                            <div class="tarteaucitronTitle" role="heading" aria-level="2"> <button type="button"
+                                    class="catToggleBtn" aria-expanded="false" data-cat="tarteaucitronDetailsvideo"
+                                    data-index="7"><span class="tarteaucitronPlus" aria-hidden="true"></span>
+                                    Vidéos</button> </div>
+                            <div id="tarteaucitronDetailsvideo" class="tarteaucitronDetails tarteaucitronInfoBox">
+                                Les services de partage de vidéo permettent d'enrichir le
+                                site de contenu multimédia et augmentent sa visibilité. </div>
+                            <ul id="tarteaucitronServices_video">
+                                <li id="acastLine" class="tarteaucitronLine tarteaucitronIsAllowed">
+                                    <div class="tarteaucitronName"> <span class="tarteaucitronH3" role="heading"
+                                            aria-level="3">Acast</span> <span class="tacCurrentStatus"
+                                            id="tacCurrentStatusacast">autorisé</span> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <span id="tacCLacast"
+                                            class="tarteaucitronListCookies">Ce service n'a déposé aucun
+                                            cookie.</span><br> <a
+                                            href="https://gaite-lyrique.net/declaration-relative-aux-cookies"
+                                            target="_blank" rel="noreferrer noopener nofollow"
+                                            title="En savoir plus : Détail des cookies Acast sur notre site (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreInfo"> En savoir plus </a> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <a
+                                            href="https://www.acast.com/en/privacy" target="_blank"
+                                            rel="noreferrer noopener"
+                                            title="Voir le site officiel Acast (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreOfficial"> Voir le site officiel </a> </div>
+                                    <div class="tarteaucitronAsk"> <button type="button" aria-label="Autoriser Acast"
+                                            id="acastAllowed" class="tarteaucitronAllow" aria-pressed="true"> <span
+                                                class="tarteaucitronCheck" aria-hidden="true"></span> Autoriser
+                                        </button> <button type="button" aria-label="Interdire Acast" id="acastDenied"
+                                            class="tarteaucitronDeny" aria-pressed="false"> <span
+                                                class="tarteaucitronCross" aria-hidden="true"></span> Interdire
+                                        </button> </div>
+                                </li>
+                                <li id="aushaLine" class="tarteaucitronLine tarteaucitronIsAllowed">
+                                    <div class="tarteaucitronName"> <span class="tarteaucitronH3" role="heading"
+                                            aria-level="3">Ausha</span> <span class="tacCurrentStatus"
+                                            id="tacCurrentStatusausha">autorisé</span> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <span id="tacCLausha"
+                                            class="tarteaucitronListCookies">Ce service n'a déposé aucun
+                                            cookie.</span><br> <a
+                                            href="https://gaite-lyrique.net/declaration-relative-aux-cookies"
+                                            target="_blank" rel="noreferrer noopener nofollow"
+                                            title="En savoir plus : Détail des cookies Ausha sur notre site (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreInfo"> En savoir plus </a> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <a
+                                            href="https://www.ausha.co/protection-personal-data/" target="_blank"
+                                            rel="noreferrer noopener"
+                                            title="Voir le site officiel Ausha (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreOfficial"> Voir le site officiel </a> </div>
+                                    <div class="tarteaucitronAsk"> <button type="button" aria-label="Autoriser Ausha"
+                                            id="aushaAllowed" class="tarteaucitronAllow" aria-pressed="true"> <span
+                                                class="tarteaucitronCheck" aria-hidden="true"></span> Autoriser
+                                        </button> <button type="button" aria-label="Interdire Ausha" id="aushaDenied"
+                                            class="tarteaucitronDeny" aria-pressed="false"> <span
+                                                class="tarteaucitronCross" aria-hidden="true"></span> Interdire
+                                        </button> </div>
+                                </li>
+                                <li id="soundcloudLine" class="tarteaucitronLine tarteaucitronIsAllowed">
+                                    <div class="tarteaucitronName"> <span class="tarteaucitronH3" role="heading"
+                                            aria-level="3">SoundCloud</span> <span class="tacCurrentStatus"
+                                            id="tacCurrentStatussoundcloud">autorisé</span> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <span id="tacCLsoundcloud"
+                                            class="tarteaucitronListCookies">Ce service n'a déposé aucun
+                                            cookie.</span><br> <a
+                                            href="https://gaite-lyrique.net/declaration-relative-aux-cookies"
+                                            target="_blank" rel="noreferrer noopener nofollow"
+                                            title="En savoir plus : Détail des cookies SoundCloud sur notre site (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreInfo"> En savoir plus </a> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <a
+                                            href="https://gaite-lyrique.net/festival/undefined" target="_blank"
+                                            rel="noreferrer noopener"
+                                            title="Voir le site officiel SoundCloud (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreOfficial"> Voir le site officiel </a> </div>
+                                    <div class="tarteaucitronAsk"> <button type="button"
+                                            aria-label="Autoriser SoundCloud" id="soundcloudAllowed"
+                                            class="tarteaucitronAllow" aria-pressed="true"> <span
+                                                class="tarteaucitronCheck" aria-hidden="true"></span> Autoriser
+                                        </button> <button type="button" aria-label="Interdire SoundCloud"
+                                            id="soundcloudDenied" class="tarteaucitronDeny" aria-pressed="false"> <span
+                                                class="tarteaucitronCross" aria-hidden="true"></span> Interdire
+                                        </button> </div>
+                                </li>
+                                <li id="vimeoLine" class="tarteaucitronLine tarteaucitronIsAllowed">
+                                    <div class="tarteaucitronName"> <span class="tarteaucitronH3" role="heading"
+                                            aria-level="3">Vimeo</span> <span class="tacCurrentStatus"
+                                            id="tacCurrentStatusvimeo">autorisé</span> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <span id="tacCLvimeo"
+                                            class="tarteaucitronListCookies">Ce service n'a déposé aucun
+                                            cookie.</span><br> <a
+                                            href="https://gaite-lyrique.net/declaration-relative-aux-cookies"
+                                            target="_blank" rel="noreferrer noopener nofollow"
+                                            title="En savoir plus : Détail des cookies Vimeo sur notre site (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreInfo"> En savoir plus </a> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <a
+                                            href="https://vimeo.com/privacy" target="_blank" rel="noreferrer noopener"
+                                            title="Voir le site officiel Vimeo (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreOfficial"> Voir le site officiel </a> </div>
+                                    <div class="tarteaucitronAsk"> <button type="button" aria-label="Autoriser Vimeo"
+                                            id="vimeoAllowed" class="tarteaucitronAllow" aria-pressed="true"> <span
+                                                class="tarteaucitronCheck" aria-hidden="true"></span> Autoriser
+                                        </button> <button type="button" aria-label="Interdire Vimeo" id="vimeoDenied"
+                                            class="tarteaucitronDeny" aria-pressed="false"> <span
+                                                class="tarteaucitronCross" aria-hidden="true"></span> Interdire
+                                        </button> </div>
+                                </li>
+                                <li id="youtubeLine" class="tarteaucitronLine tarteaucitronIsAllowed">
+                                    <div class="tarteaucitronName"> <span class="tarteaucitronH3" role="heading"
+                                            aria-level="3">YouTube</span> <span class="tacCurrentStatus"
+                                            id="tacCurrentStatusyoutube">autorisé</span> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <span id="tacCLyoutube"
+                                            class="tarteaucitronListCookies">Ce service n'a déposé aucun
+                                            cookie.</span><br> <a
+                                            href="https://gaite-lyrique.net/declaration-relative-aux-cookies"
+                                            target="_blank" rel="noreferrer noopener nofollow"
+                                            title="En savoir plus : Détail des cookies YouTube sur notre site (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreInfo"> En savoir plus </a> <span
+                                            class="tarteaucitronReadmoreSeparator"> - </span> <a
+                                            href="https://policies.google.com/privacy" target="_blank"
+                                            rel="noreferrer noopener"
+                                            title="Voir le site officiel YouTube (nouvelle fenêtre)"
+                                            class="tarteaucitronReadmoreOfficial"> Voir le site officiel </a> </div>
+                                    <div class="tarteaucitronAsk"> <button type="button" aria-label="Autoriser YouTube"
+                                            id="youtubeAllowed" class="tarteaucitronAllow" aria-pressed="true"> <span
+                                                class="tarteaucitronCheck" aria-hidden="true"></span> Autoriser
+                                        </button> <button type="button" aria-label="Interdire YouTube"
+                                            id="youtubeDenied" class="tarteaucitronDeny" aria-pressed="false"> <span
+                                                class="tarteaucitronCross" aria-hidden="true"></span> Interdire
+                                        </button> </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="tarteaucitronNoServicesTitle" class="tarteaucitronLine" style="display: none;">Ce site
+                            n'utilise aucun cookie nécessitant votre consentement.</li>
+                    </ul>
+                    <div class="tarteaucitronHidden tarteaucitron-spacer-20" id="tarteaucitronScrollbarChild"></div>
+                </div>
+            </div>
+        </div>
+        <div tabindex="-1" id="tarteaucitronAlertBig" class="tarteaucitronAlertBigBottom"
+            style="opacity: 0; display: none;"> <span id="tarteaucitronDisclaimerAlert"> Ce site utilise des cookies et
+                vous donne le contrôle sur ceux que vous souhaitez activer </span> <button type="button"
+                class="tarteaucitronCTAButton tarteaucitronAllow" id="tarteaucitronPersonalize2"> <span
+                    class="tarteaucitronCheck" aria-hidden="true"></span> Tout accepter </button> <button type="button"
+                class="tarteaucitronCTAButton tarteaucitronDeny" id="tarteaucitronAllDenied2"> <span
+                    class="tarteaucitronCross" aria-hidden="true"></span> Tout refuser </button> <button type="button"
+                id="tarteaucitronCloseAlert" aria-label="Personnaliser (fenêtre modale)"
+                title="Personnaliser (fenêtre modale)"> Personnaliser </button> <button type="button"
+                id="tarteaucitronPrivacyUrl" role="link"> Déclaration relative aux cookies </button></div>
+        <div id="tarteaucitronPercentage" style="display: none;"></div>
+    </div>
+    <script type="text/javascript"
+        id="">!function (b, e, f, g, a, c, d) { b.fbq || (a = b.fbq = function () { a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments) }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"); fbq("init", "456878294518915"); fbq("set", "agent", "tmgoogletagmanager", "456878294518915"); fbq("track", "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=456878294518915&amp;ev=PageView&amp;noscript=1"></noscript>
+
+    <script type="text/javascript"
+        id="">!function (b, e, f, g, a, c, d) { b.fbq || (a = b.fbq = function () { a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments) }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"); fbq("init", "456878294518915"); fbq("track", "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=456878294518915&amp;ev=PageView&amp;noscript=1"></noscript>
+    <div style="display: none; visibility: hidden;"><img src="gaiete_fichiers/bounce.gif" width="1" height="1">
+
+
+        <script async="null" src="gaiete_fichiers/js"></script>
+        <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments) } gtag("js", new Date); gtag("config", "AW-757236133");</script>
+    </div>
+    <div style="display: none; visibility: hidden;"><img src="gaiete_fichiers/bounce_002.gif" width="1" height="1">
+    </div>
+    <div style="display: none; visibility: hidden;">
+        <script>!function (a, b) { if (!a.pixie) { var c = a.pixie = function (d, e, f) { c.actionQueue.push({ action: d, actionValue: e, params: f }) }; c.actionQueue = []; a = b.createElement("script"); a.async = !0; a.src = "//acdn.adnxs.com/dmp/up/pixie.js"; b = b.getElementsByTagName("head")[0]; b.insertBefore(a, b.firstChild) } }(window, document); pixie("init", "188a7926-8ba1-4351-ac83-80294a0a55d6");</script>
+
+
+        <script>pixie("event", "PageView");</script>
+        <noscript></noscript>
+    </div>
+    <div id="fb-root" class=" fb_reset">
+        <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+            <div></div>
+        </div>
+    </div>
+</body>
+
+</html>
