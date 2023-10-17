@@ -1,30 +1,6 @@
-.parts_a_propos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 25%;
-  justify-content: space-around;
-  margin-top: 1em;
-}
-
-#logiciel_container {
-  height: 20%;
-}
-
-.contenu_a_propos {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
 #parcours_contain {
   justify-content: space-between;
   width: 80%;
-}
-
-#logiciel_contain {
-  width: 45%;
-  justify-content: space-around;
 }
 
 #paragraphe_contain {
@@ -33,22 +9,6 @@
   width: 90%;
   text-align: justify;
   font-size: 15px;
-}
-
-h3 {
-  font-weight: bold;
-  font-size: 15px;
-}
-
-.diplome_container {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.diplome_container p{
-  font-size: 13px;
 }
 
 @media (max-width: 400px) {

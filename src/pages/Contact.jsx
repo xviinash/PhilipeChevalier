@@ -1,21 +1,29 @@
 import { useContext } from "react";
 import ContactComponant from "../components/ContactComponant";
+import IconComponant from "../components/IconComponant";
 import DataContext from "../context/dataContext";
 
 const Contact = () => {
-  const { contact } = useContext(DataContext);
+  const { contact, apropos } = useContext(DataContext);
   return (
     <div>
-      <section id="contact_section">
-        <div id="contact_container">
-          <h2>Contact</h2>
-          <div>
-            {contact.map((c, index) => (
-              <ContactComponant contact={c} key={index} />
+      <section>
+        <h2>Software</h2>
+        <div>
+            {apropos.logiciel.map((e, index) => (
+              <IconComponant icon={e} key={index} />
             ))}
           </div>
-        </div>
       </section>
+    <section>
+      <h2>Contact me</h2>
+      <div>
+        {contact.map((c, index) => (
+          <ContactComponant contact={c} key={index} />
+        ))}
+      </div>
+    </section>
+
     </div>
   );
 };

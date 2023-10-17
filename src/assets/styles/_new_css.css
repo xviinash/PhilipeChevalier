@@ -1,0 +1,40 @@
+:root {
+    --color-back : #17293B;
+    --color-magenta: rgba(255, 12, 99, 1);
+}
+
+section {
+    background-color: var(--color-back);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+section h2 {
+    padding-left: 0.5rem;
+    background-color: aliceblue;
+    color: black;
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section > div {
+    width: 90%;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+#root > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}

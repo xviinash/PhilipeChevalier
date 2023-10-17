@@ -7,7 +7,6 @@ const Presentation = () => {
 
   return (
     <div  id="presentation_section">
-    <section>
       <div id="phrase_general">
         <div>
           Bonjour, <br />
@@ -27,8 +26,6 @@ const Presentation = () => {
           <IconComponant icon={e} key={index} />
         ))}
       </div>
-    </section>
-
     </div>
   );
 };

@@ -1,27 +1,27 @@
 {
   "parcours": [
     {
-      "diplome": "Brevet des collèges",
-      "mention": "mention bien",
+      "diplome": "Master degree course in digital creation",
+      "mention": "École Estienne, Paris (75)",
       "annees": {
-        "debut": 2013,
-        "fin": 2017
+        "debut": 2023,
+        "fin": 2025
       }
     },
     {
-      "diplome": "Baccalauréat STD2A",
-      "mention": "mention bien",
-      "annees": {
-        "debut": 2017,
-        "fin": 2020
-      }
-    },
-    {
-      "diplome": " DNMADe Design Graphique",
-      "mention": "en cours",
+      "diplome": "Bachelor’s degree course in graphic design",
+      "mention": "ésaat, Roubaix (59)",
       "annees": {
         "debut": 2020,
         "fin": 2023
+      }
+    },
+    {
+      "diplome": " High School diploma",
+      "mention": "Sciences and technologies of design and applied arts, Saint-Omer (62)",
+      "annees": {
+        "debut": 2017,
+        "fin": 2020
       }
     }
   ],
@@ -33,16 +33,6 @@
       "icon": "/assets/icons/contact/mail.svg",
       "name": "philippe2002chevalier@gmail.com",
       "lien": "mailto:philippe2002chevalier@gmail.com"
-    },
-    {
-      "icon": "/assets/icons/contact/behance.svg",
-      "name": "@xviinash",
-      "lien": "https://www.behance.net/xviinash"
-    },
-    {
-      "icon": "/assets/icons/contact/instagram.svg",
-      "name": "@xviinash",
-      "lien": "https://www.instagram.com/xviinash/"
     }
   ],
   "presentation": {
@@ -52,12 +42,32 @@
     "activite":"Actuellement étudiant en graphisme à l’ésaat.",
     "resaux": [
       {
-        "icon": "/assets/icons/contact/behance.svg",
+        "icon": "/assets/icons/contact/svg_behance.svg",
         "name": "behance",
         "lien": "https://www.behance.net/xviinash"
       },
       {
-        "icon": "/assets/icons/contact/instagram.svg",
+        "icon": "/assets/icons/contact/svg_insta.svg",
+        "name": "instagram",
+        "lien": "https://www.instagram.com/xviinash/"
+      },
+      {
+        "icon": "/assets/icons/contact/svg_behance.svg",
+        "name": "behance",
+        "lien": "https://www.behance.net/xviinash"
+      },
+      {
+        "icon": "/assets/icons/contact/svg_insta.svg",
+        "name": "instagram",
+        "lien": "https://www.instagram.com/xviinash/"
+      },
+      {
+        "icon": "/assets/icons/contact/svg_behance.svg",
+        "name": "behance",
+        "lien": "https://www.behance.net/xviinash"
+      },
+      {
+        "icon": "/assets/icons/contact/svg_insta.svg",
         "name": "instagram",
         "lien": "https://www.instagram.com/xviinash/"
       }

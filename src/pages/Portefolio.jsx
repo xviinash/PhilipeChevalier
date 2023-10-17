@@ -10,18 +10,14 @@ const Portefolio = () => {
   }, []);
 
   return (
-    <div id="portefolio_section">
-      <section>
-        <h2>Le Portfolio</h2>
-        <div id="project_container">
-          <div id="presentation_project">
-            {project.map((e, index) => (
-              <PortefolioComponent key={index} project={e}/>
-            ))}
-          </div>
-        </div>
-      </section>
-    </div>
+    <section>
+      <h2>Behance project</h2>
+      <div id="presentation_project">
+          {project.map((e, index) => (
+            <PortefolioComponent key={index} project={e} />
+          ))}
+      </div>
+    </section>
   );
 };
 

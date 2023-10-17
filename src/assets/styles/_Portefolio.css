@@ -1,31 +1,10 @@
-#project_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 80%;
-
-  border-radius: 3em;
-  background: linear-gradient(
-    154.62deg,
-    rgba(74, 88, 119, 0.5) 16.09%,
-    rgba(101, 114, 147, 0) 105.13%
-  );
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  backdrop-filter: blur(3.5px);
-}
-
 #presentation_project {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 2.5%;
-  row-gap: 3.5%;
-  width: 90%;
-  height: 80%;
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+  grid-row: auto;
   overflow: auto;
-  border-radius: 10px;
+  height: 75vh;
 }
 
 body::-webkit-scrollbar-track {
@@ -34,19 +13,13 @@ body::-webkit-scrollbar-track {
 }
 
 #presentation_project::-webkit-scrollbar {
-	width: 12px;
-}
-
-#presentation_project::-webkit-scrollbar-thumb {
-	background: #666666;
-  border-radius: 10px;
+	display: none;
 }
 
 
 #presentation_project > div {
-  border-radius: 8px;
   overflow: hidden;
-  width: 325px;
+  height: 100%;
   height: 250px;
   position: relative;
 }
@@ -66,8 +39,6 @@ body::-webkit-scrollbar-track {
   padding: 5%;
   flex-direction: column;
   font-size: 20px;
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
 
   background: linear-gradient(
     154.62deg,
@@ -113,21 +84,4 @@ body::-webkit-scrollbar-track {
   position: absolute;
   right: 20px;
   bottom:20px;
-}
-
-@media (max-width: 400px) {
-
-  #project_container {
-    height: 500px;
-  }
-
-  #presentation_project {
-    overflow:scroll;
-    height: 450px;
-  }
-
-
-  #presentation_project::-webkit-scrollbar {
-    display: none;
-  }
 }
