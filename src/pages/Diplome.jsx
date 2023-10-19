@@ -8,7 +8,7 @@ const Diplome = () => {
 
     return (
         <section>
-            <Titre titre={"Diplome"}/>
+            <Titre titre={"Education"}/>
             <div>
                 {apropos.parcours.map((e, index) => (
                     <DiplomeCompnent parcours={e} key={index} />
