@@ -1,13 +1,7 @@
-#presentation_section > section {
-  width: 100%;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+#presentation_section  {
+  height: 100vh;
 }
 
-#presentation_section > section > div {
-  height: 70%;
-}
 
 #phrase_general {
   width: 40%;
@@ -19,8 +13,9 @@
 
 #phrase_general div {
   width: 100%;
-  font-size: 35px;
+  font-size: 5.2em;
   margin-bottom: 5px;
+  font-family: "Murmure";
 }
 
 #activite_presentation {

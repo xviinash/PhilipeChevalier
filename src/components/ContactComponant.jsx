@@ -1,9 +1,10 @@
 import React from "react";
+import { ArrowDownRight } from "lucide-react";
 
 const ContactComponant = ({ contact }) => {
   return (
     <div className="contact_componant">
-      <img src={contact.icon} alt={contact.name} />
+      <ArrowDownRight />
       <a href={contact.lien} target="_blank">{contact.name}</a>
     </div>
   );

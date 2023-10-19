@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import PortefolioComponent from "../components/PortefolioComponent";
 import { Behance } from "../resources/Behance";
+import Titre from "../components/TitreComponant";
 
 const Portefolio = () => {
   const [project, setProject] = useState([]);
@@ -11,7 +12,7 @@ const Portefolio = () => {
 
   return (
     <section>
-      <h2>Behance project</h2>
+      <Titre titre={"Behance project"}/>
       <div id="presentation_project">
           {project.map((e, index) => (
             <PortefolioComponent key={index} project={e} />

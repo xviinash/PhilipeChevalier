@@ -1,21 +1,19 @@
 import React from "react";
+import { ArrowDownRight } from "lucide-react";
 
 const PortefolioComponent = ({ project }) => {
 
-  
-
   return (
-    <div href={project.url} target="_blank">
-        <img src={project.covers.original_webp} alt={project.slug} />
-        <div className="project_footer">
-            <div>{project.name}</div>
-            <span>{new Date(project.published_on * 1000).toLocaleDateString("fr")}</span>
-            <div className="fields_container">
-              {project.fields.map((e, index) => <div key={index} className="flieds">{e}</div> )}
-            </div>
-            <a href={project.url} target="_blank">En savoir plus</a>
+    <a href={project.url} target="_blank">
+      <img src={project.covers.original_webp} alt={project.slug} />
+      <div className="project_footer">
+        <div className="arrow_project"> <ArrowDownRight /> Open with Behance</div>
+        <h4>{project.name}</h4>
+        <div className="fields_container">
+          {project.fields.map((e, index) => <div key={index} className="flieds">{e}</div>)}
         </div>
-    </div>
+      </div>
+    </a>
   );
 };
 

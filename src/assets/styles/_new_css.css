@@ -1,6 +1,12 @@
 :root {
     --color-back : #17293B;
     --color-magenta: rgba(255, 12, 99, 1);
+    --color-background: aliceblue;
+}
+
+@font-face {
+    font-family: 'Murmure';
+    src: url('../font/LeMurmure-Regular.woff');
 }
 
 section {
@@ -15,7 +21,7 @@ section {
 
 section h2 {
     padding-left: 0.5rem;
-    background-color: aliceblue;
+    background-color: var(--color-background);
     color: black;
     width: 100%;
     margin-bottom: 2rem;
@@ -38,3 +44,7 @@ section > div {
     justify-content: space-between;
     gap: 1.5rem;
 }
+
+svg {
+    margin-right: 5px;
+  }

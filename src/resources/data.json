@@ -39,7 +39,7 @@
     "photo": "/assets/images/portrait.png",
     "nom": "Chevalier",
     "prenom": "Philippe",
-    "activite":"Actuellement étudiant en graphisme à l’ésaat.",
+    "activite":"Digital Designer based in Paris",
     "resaux": [
       {
         "icon": "/assets/icons/contact/svg_behance.svg",
@@ -52,24 +52,24 @@
         "lien": "https://www.instagram.com/xviinash/"
       },
       {
-        "icon": "/assets/icons/contact/svg_behance.svg",
-        "name": "behance",
-        "lien": "https://www.behance.net/xviinash"
+        "icon": "/assets/icons/contact/svg_youtube.svg",
+        "name": "youtube",
+        "lien": "https://www.youtube.com/@xviinash/"
       },
       {
-        "icon": "/assets/icons/contact/svg_insta.svg",
-        "name": "instagram",
-        "lien": "https://www.instagram.com/xviinash/"
+        "icon": "/assets/icons/contact/svg_tiktok.svg",
+        "name": "tiktok",
+        "lien": "https://www.tiktok.com/@xviinash/"
       },
       {
-        "icon": "/assets/icons/contact/svg_behance.svg",
-        "name": "behance",
-        "lien": "https://www.behance.net/xviinash"
+        "icon": "/assets/icons/contact/svg_patreon.svg",
+        "name": "patreon",
+        "lien": "https://www.patreon.com/xviinash/"
       },
       {
-        "icon": "/assets/icons/contact/svg_insta.svg",
-        "name": "instagram",
-        "lien": "https://www.instagram.com/xviinash/"
+        "icon": "/assets/icons/contact/svg_twitch.svg",
+        "name": "twitch",
+        "lien": "https://www.twitch.tv/xviinash/"
       }
     ]
   },
