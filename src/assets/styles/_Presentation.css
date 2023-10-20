@@ -2,7 +2,6 @@
   height: 100vh;
 }
 
-
 #phrase_general {
   width: 40%;
   display: flex;
@@ -20,16 +19,27 @@
 
 #activite_presentation {
   width: 100%;
-  font-size: 18px;
-  height: 35px;
-  padding-top: 5px;
-  padding-left: 10px;
-  color: #9499a3;
+  font-size: 1.2em;
 }
 
 #reseaux_container {
   display: flex;
   flex-direction: column;
+}
+
+#lien_pdf {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#lien_pdf a {
+  background: var(--color-magenta);
+  display: flex;
+  align-items: center;
+  padding: 0.5em 0.8em;
 }
 
 @media (max-width: 400px) {
