@@ -35,20 +35,12 @@ body {
 
 
 #root {
-  margin: 0 auto;
-  width: 85%;
+  margin: 2.5em auto;
+  width: 85%; 
+  margin-top: 8em;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
-  margin-top: 4em;
-}
-
-#root > * {
-  width: 100%;
-  margin-bottom: 2.5rem;
+  display: grid;
+  gap: 2.5em;
 }
 
 body::-webkit-scrollbar {

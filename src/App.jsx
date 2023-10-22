@@ -3,6 +3,7 @@ import Contact from "./pages/Contact";
 import Presentation from "./pages/Presentation";
 import Portefolio from "./pages/Portefolio";
 import Diplome from "./pages/Diplome";
+import Logiciel from "./pages/Logiciel";
 
 const App = () => {
   const SECTION_LIST = [
@@ -10,6 +11,7 @@ const App = () => {
     <Portefolio />,
     <Apropos />,
     <Diplome />,
+    <Logiciel />,
     <Contact />,
   ];
 
