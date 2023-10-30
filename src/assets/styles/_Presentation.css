@@ -1,19 +1,22 @@
 #presentation_section  {
-  height: 85vh;
   background: none;
   align-items: normal;
 
   display: grid;
-  gap: 2.5em;
   margin-bottom: 5em;
+  column-gap: 1em;
+  row-gap: 3.5em;
+  grid-template-columns: 60% auto auto;
+  height: 70vh;
 }
 
 #presentation_section > div {
   width: auto;
+  margin-bottom: 0;
 }
 
 #phrase_general {
-  grid-column: 1;
+  grid-column:  1;
   grid-row: 1;
 
   display: flex;
@@ -34,6 +37,10 @@
   font-family: "Murmure";
 }
 
+#phrase_general span {
+  color: var(--color-magenta);
+}
+
 #activite_presentation {
   width: 100%;
   font-size: 1.2em;
@@ -51,6 +58,7 @@
 
 #reseaux_container img {
   width: 3em;
+  height: 100%;
 }
 
 #lien_pdf {
@@ -68,7 +76,13 @@
   display: flex;
   align-items: center;
   padding: 0.5em 0.8em;
+  font-size: 0.7em;
 }
+
+#lien_pdf a svg {
+  height: 80%;
+}
+
 
 #lien_youtube {
   grid-column: 1;
@@ -76,35 +90,59 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-
 }
 
-@media (max-width: 400px) {
-  #presentation_section > section {
-    flex-direction: column;
+#lien_youtube a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#lien_youtube svg {
+  margin-left: 0;
+}
+
+#canvasMap {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 480px) {
+  #presentation_section {
+    grid-template-columns: auto;
+    height: auto;
   }
 
-  #presentation_section > section > div:nth-child(1) {
-    order: 2;
-  }
-
-  #presentation_section > section > div:nth-child(2) {
-    order: 1;
-  }
-
-  #presentation_section > section > div:nth-child(3) {
-    order: 3;
-  }
-  
   #phrase_general {
-    width: 100%;
+    grid-column:  1;
+    grid-row: 3;
   }
 
   #phrase_general div {
-    font-size: 25px;
+    font-size: 3em;
+  }
+
+  #presentation_section section {
+    grid-column: 1;
+    grid-row: 1;
   }
 
   #reseaux_container {
-    display: none;
+    grid-column: 1;
+    grid-row: 2;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  #lien_pdf {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  #lien_youtube {
+    grid-column: 1;
+    grid-row: 5;
   }
 }

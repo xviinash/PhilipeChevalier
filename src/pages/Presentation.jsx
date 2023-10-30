@@ -2,6 +2,7 @@ import { useContext } from "react";
 import DataContext from "../context/dataContext";
 import IconComponant from "../components/IconComponant";
 import { ArrowDownToLine, ArrowDownRight } from 'lucide-react';
+import Tete from "../components/TeteComponant";
 
 const Presentation = () => {
   const { presentation } = useContext(DataContext);
@@ -20,21 +21,26 @@ const Presentation = () => {
         <p id="activite_presentation">{presentation.activite}</p>
       </div>
       <section>
-        <h2>Turn me :) (it's comming)</h2>
-        <img src={presentation.photo} alt={presentation.prenom} />
+        <h2>Turn me :)</h2>
+        <Tete />
       </section>
-      <div id="lien_pdf">
-        <a href="#"><ArrowDownToLine /> Portfolio [FR] (PDF)</a>
-        <a href="#"><ArrowDownToLine /> Curriculum vitæ (PDF)</a>
-      </div>
       <div id="reseaux_container">
         {presentation.resaux.map((e, index) => (
           <IconComponant icon={e} key={index} />
         ))}
       </div>
-      <a id="lien_youtube" href="https://www.youtube.com/@xviinash/" target="_blank"><ArrowDownRight /> Check my latest project on YouTube </a>
+      <div id="lien_pdf">
+        <a href="#"><ArrowDownToLine /> Portfolio [FR] (PDF)</a>
+        <a href="#"><ArrowDownToLine /> Curriculum vitæ (PDF)</a>
+      </div>
+      <div id="lien_youtube">
+      <a href="https://www.youtube.com/@xviinash/" target="_blank"><ArrowDownRight /> Check my latest project on YouTube </a>
+      </div>
+      
     </section>
   );
 };
 
 export default Presentation;
+
+/* <img src={presentation.photo} alt={presentation.prenom} />*/

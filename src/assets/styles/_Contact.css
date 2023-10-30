@@ -20,25 +20,3 @@
 #logiciel_container a {
   height: 1.5em;
 }
-
-@media (max-width: 400px) {
-	#contact_container {
-    width: 100%;
-    padding-left: 35px;
-    margin-bottom:35px;
-	}
-
-  .contact_componant {
-    width: 100%;
-  }
-
-  .contact_componant img {
-    width: 30px;
-    margin-right: 0.5em;
-  }
-  
-  .contact_componant a {
-    width: 160px;
-    font-size: 12px;
-  }
-}

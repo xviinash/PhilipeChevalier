@@ -35,9 +35,9 @@ body {
 
 
 #root {
-  margin: 2.5em auto;
   width: 85%; 
-  margin-top: 8em;
+  margin-top: 10em;
+  margin-bottom: 2.5em;
 
   display: grid;
   gap: 2.5em;
@@ -59,10 +59,4 @@ body::-webkit-scrollbar-track {
   linear-gradient(
     147.78deg,#0E0F1C, #211122
   );
-}
-
-@media (max-width: 400px) {
-	#root {
-    max-width: 350px;
-	}
 }
