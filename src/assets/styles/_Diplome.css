@@ -12,3 +12,11 @@
  .diplome_container div {
     font-size: 1em;
  }
+
+ 
+ @media (max-width: 600px) {
+   #diplome {
+      flex-direction: column;
+      gap: 2em;
+   }
+ }

@@ -28,6 +28,7 @@ section h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 1.2em;
 }
 
 section > div {
@@ -56,7 +57,7 @@ svg {
     grid-column: 2;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
     #software, #contact {
         grid-column: 1/3;
     }
