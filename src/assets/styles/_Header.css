@@ -1,7 +1,7 @@
 header {
   width: 100%;
   position: fixed;
-  padding: 0.5em 0;
+  padding: 0.2em 0;
 
   display: flex;
   flex-direction: row;
@@ -20,7 +20,7 @@ header {
 }
 
 #media_header {
-  width: 2%;
+  width: 1.5%;
 }
 
 #header div {
@@ -29,7 +29,7 @@ header {
 }
 
 #header p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding-left: 100%;
   white-space: nowrap;
   animation: defilement 30s infinite linear;
