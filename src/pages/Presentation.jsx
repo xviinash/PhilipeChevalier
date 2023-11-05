@@ -21,7 +21,7 @@ const Presentation = () => {
         <p id="activite_presentation">{presentation.activite}</p>
       </div>
       <section>
-        <h2>Turn me :)</h2>
+        <h2>Open to work :)</h2>
         <Tete />
       </section>
       <div id="reseaux_container">
