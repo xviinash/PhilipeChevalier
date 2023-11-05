@@ -34,7 +34,7 @@ const Presentation = () => {
         <a href="#"><ArrowDownToLine /> Curriculum vitæ (PDF)</a>
       </div>
       <div id="lien_youtube">
-      <a href="https://www.youtube.com/@xviinash/" target="_blank"><ArrowDownRight /> Check my latest project on YouTube </a>
+      <a href="https://youtu.be/gqHbLykAh5c?si=7wofxV4uo4YJMp2U" target="_blank"><ArrowDownRight /> Check my latest project on YouTube </a>
       </div>
       
     </section>
