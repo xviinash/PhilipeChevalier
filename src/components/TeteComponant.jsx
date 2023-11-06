@@ -36,7 +36,7 @@ const Tete = () => {
         //Orbit controls
         const controls = new OrbitControls(camera, renderer.domElement);
         controls.Zoom = true;
-        controls.Pan = true;
+        controls.Pan = false;
         controls.Rotate = true;
         controls.enableZoom = false;
 
