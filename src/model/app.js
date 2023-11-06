@@ -25,6 +25,9 @@ scene.add(directionalLight2);
 const directionalLight3 = new THREE.DirectionalLight(0xA24FFF, 2);
 directionalLight3.position.set(-4, 2, 1);
 scene.add(directionalLight3);
+const directionalLight4 = new THREE.DirectionalLight(0xA24FFF, 2);
+directionalLight4.position.set(3, -1, 1);
+scene.add(directionalLight4);
 
 // 
 
