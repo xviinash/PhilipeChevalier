@@ -41,7 +41,7 @@ gltfLoader.load('./asset/model/cats.gltf', (gltf) => {
 //Orbit controls
 const controls = new THREE.OrbitControls(camera);
 controls.Zoom = true;
-controls.Pan = true;
+controls.Pan = false;
 controls.Rotate = true;
 
 // Animate function
