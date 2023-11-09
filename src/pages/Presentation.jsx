@@ -30,8 +30,8 @@ const Presentation = () => {
         ))}
       </div>
       <div id="lien_pdf">
-        <a href="#"><ArrowDownToLine /> Portfolio [FR] (PDF)</a>
-        <a href="#"><ArrowDownToLine /> Curriculum vitæ (PDF)</a>
+        <a target="_blank" href="/assets/pdf/portfolio_xviinash_FR.pdf"><ArrowDownToLine /> Portfolio [FR] (PDF)</a>
+        <a target="_blank" href="/assets/pdf/cv_xviinash_EN.pdf"><ArrowDownToLine /> Curriculum vitæ (PDF)</a>
       </div>
       <div id="lien_youtube">
       <a href="https://youtu.be/gqHbLykAh5c?si=7wofxV4uo4YJMp2U" target="_blank"><ArrowDownRight /> Check my latest project on YouTube </a>

@@ -23,16 +23,21 @@ header {
   width: 1.5%;
 }
 
-#header div {
-  width: 80%;
+#wrapper {
+  width: 97%;
   overflow: hidden;
 }
 
-#header p {
-  font-size: 1.25rem;
-  padding-left: 100%;
+#marquee {
   white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
   animation: defilement 30s infinite linear;
+}
+
+#marquee p {
+  font-size: 1.25rem;
+  display: inline-block;
 }
 
 @keyframes defilement {
@@ -40,7 +45,7 @@ header {
     transform: translate3d(0,0,0);      /* position initiale à droite */
   }
   100% {
-    transform: translate3d(-100%,0,0);  /* position finale à gauche */
+    transform: translate3d(-50%,0,0);  /* position finale à gauche */
   }
 }
 
