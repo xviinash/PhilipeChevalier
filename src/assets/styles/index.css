@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 @import "./_main.css";
+@import "./_new_css.css";
 
 @import "./_Header.css";
 
@@ -10,4 +11,4 @@
 @import "./_Contact.css";
 @import "./_Diplome.css";
 
-@import "./_new_css.css";
+

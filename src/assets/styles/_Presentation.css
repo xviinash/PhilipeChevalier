@@ -14,6 +14,11 @@
   margin-bottom: 0;
 }
 
+#presentation_section > section {
+  grid-column: 2;
+  grid-row: 1;
+}
+
 #phrase_general {
   grid-column:  1;
   grid-row: 1;
@@ -24,11 +29,6 @@
   justify-content: center;
 }
 
-#presentation_section section {
-  grid-column: 2;
-  grid-row: 1;
-  opacity: 0.9;
-}
 
 #phrase_general div {
   width: 100%;

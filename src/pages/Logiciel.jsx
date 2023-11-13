@@ -7,7 +7,7 @@ const Logiciel = () => {
   const { apropos } = useContext(DataContext);
   return (
       <section id="software">
-        <Titre titre={"Software"} />
+        <Titre titre={"Software"} idDiv={"logiciel_container"} />
         <div id="logiciel_container">
           {apropos.logiciel.map((e, index) => (
             <IconComponant icon={e} key={index} />

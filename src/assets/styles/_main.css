@@ -54,6 +54,8 @@ body {
 
   display: grid;
   gap: 2.5em;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: min-content;
 }
 
 body::-webkit-scrollbar {

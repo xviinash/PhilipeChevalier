@@ -8,8 +8,8 @@ const Apropos = () => {
 
   return (
     <section>
-      <Titre titre={"About me"} />
-      <div>
+      <Titre titre={"About me"} idDiv={"apropos_container"} />
+      <div id="apropos_container">
         {apropos.information.map((e, index) => (
           <ParagrapheComponant contain={e} key={index} />
         ))}

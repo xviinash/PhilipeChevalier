@@ -12,11 +12,11 @@ const Portefolio = () => {
 
   return (
     <section>
-      <Titre titre={"Behance project"}/>
+      <Titre titre={"Behance project"} idDiv={"presentation_project"} display="grid"/>
       <div id="presentation_project">
-          {project.map((e, index) => (
-            <PortefolioComponent key={index} project={e} />
-          ))}
+        {project.map((e, index) => (
+          <PortefolioComponent key={index} project={e} />
+        ))}
       </div>
     </section>
   );

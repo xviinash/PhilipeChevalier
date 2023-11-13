@@ -20,7 +20,7 @@ const Presentation = () => {
         </div>
         <p id="activite_presentation">{presentation.activite}</p>
       </div>
-      <section>
+      <section id="tete_contain">
         <h2>Open to work :)</h2>
         <Tete />
       </section>
@@ -34,9 +34,9 @@ const Presentation = () => {
         <a target="_blank" href="/assets/pdf/cv_xviinash_EN.pdf"><ArrowDownToLine /> Curriculum vitæ (PDF)</a>
       </div>
       <div id="lien_youtube">
-      <a href="https://youtu.be/gqHbLykAh5c?si=7wofxV4uo4YJMp2U" target="_blank"><ArrowDownRight /> Check my latest project on YouTube </a>
+        <a href="https://youtu.be/gqHbLykAh5c?si=7wofxV4uo4YJMp2U" target="_blank"><ArrowDownRight /> Check my latest project on YouTube </a>
       </div>
-      
+
     </section>
   );
 };
