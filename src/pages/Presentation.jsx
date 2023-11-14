@@ -24,6 +24,7 @@ const Presentation = () => {
         <h2>Open to work :)</h2>
         <Tete />
       </section>
+      <div id="background_tete"></div>
       <div id="reseaux_container">
         {presentation.resaux.map((e, index) => (
           <IconComponant icon={e} key={index} />

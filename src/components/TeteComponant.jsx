@@ -39,6 +39,7 @@ const Tete = () => {
         controls.Pan = false;
         controls.Rotate = true;
         controls.enableZoom = false;
+        controls.enablePan = false;
 
         // Animate function
         const animate = function () {

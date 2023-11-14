@@ -17,6 +17,20 @@
 #presentation_section > section {
   grid-column: 2;
   grid-row: 1;
+  background: none;
+}
+
+#presentation_section h2 {
+  padding-left: 0.8em;
+}
+
+#background_tete {
+  background: var(--color-back);
+  position: relative;
+  grid-column: 2;
+  grid-row: 1;
+  z-index: -1;
+  mix-blend-mode: darken;
 }
 
 #phrase_general {
