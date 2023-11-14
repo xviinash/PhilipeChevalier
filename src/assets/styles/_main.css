@@ -75,3 +75,9 @@ body::-webkit-scrollbar-track {
     147.78deg,#0E0F1C, #211122
   );
 }
+
+@media (max-width: 1000px) {
+  #root {
+    grid-template-columns:auto;
+  }
+}

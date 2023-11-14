@@ -20,11 +20,11 @@ const Presentation = () => {
         </div>
         <p id="activite_presentation">{presentation.activite}</p>
       </div>
-      <section id="tete_contain">
+      <section id="tete_contain" className="position_tete">
         <h2>Open to work :)</h2>
         <Tete />
       </section>
-      <div id="background_tete"></div>
+      <div id="background_tete" className="position_tete"></div>
       <div id="reseaux_container">
         {presentation.resaux.map((e, index) => (
           <IconComponant icon={e} key={index} />

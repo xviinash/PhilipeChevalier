@@ -1,22 +1,20 @@
-.diplome_container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+#diplome {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
 }
-  
- .diplome_container p{
-    font-size: 0.6em;
-    color: #9499a3;
- }
 
- .diplome_container div {
-    font-size: 1em;
- }
+.diplome_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
- 
- @media (max-width: 600px) {
-   #diplome {
-      flex-direction: column;
-      gap: 2em;
-   }
- }
+.diplome_container p {
+  font-size: 0.6em;
+  color: #9499a3;
+}
+
+.diplome_container div {
+  font-size: 1em;
+}
