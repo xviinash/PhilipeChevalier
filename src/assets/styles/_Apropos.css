@@ -10,3 +10,8 @@
   text-align: justify;
   font-size: 15px;
 }
+
+#apropos_container {
+  flex-direction: column;
+  gap: 2em;
+}

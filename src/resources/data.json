@@ -26,13 +26,10 @@
     }
   ],
   "informations": [
-    "Bonjour, je suis un designer de 21 ans qui recherche un stage entre le 11 mars et le 31 mai 2024, je suis spécialisé dans le design digital, ce qui comprend un tas de domaines comme le graphisme, la direction artistique, l’illustration, le motion design, l’UI-UX design, le web design, la modélisation 3D ou encore le montage vidéo.
-
-Je suis tombé amoureux de la création numérique dès que j’ai eu mon premier ordinateur entre les mains. Depuis petit, je n’arrête pas d’apprendre et de créer à travers un écran et je souhaiterai élargir ma fenêtre de créativité en utilisant d’autres médias comme la réalité virtuelle, la réalité augmentée ou la réalité mixte.
-
-En dehors de mes études, je suis propriétaire d’une chaîne YouTube où je crée des clips musicaux en hommage à différents artistes autour du globe. Cette activité me permet d’exprimer à 100% mes champs créatifs et de réaliser des projets de A à Z, du storyboard jusqu’à la post-production. Je n’utilise aucun assets extérieur afin de garder l’authenticité de mon travail.
-
-J’essaie toujours de travailler de manière efficace et productif afin de mieux optimiser mon temps."
+    "Bonjour, je suis un designer de 21 ans qui recherche un stage entre le 11 mars et le 31 mai 2024, je suis spécialisé dans le design digital, ce qui comprend un tas de domaines comme le graphisme, la direction artistique, l’illustration, le motion design, l’UI-UX design, le web design, la modélisation 3D ou encore le montage vidéo.",
+    "Je suis tombé amoureux de la création numérique dès que j’ai eu mon premier ordinateur entre les mains. Depuis petit, je n’arrête pas d’apprendre et de créer à travers un écran et je souhaiterai élargir ma fenêtre de créativité en utilisant d’autres médias comme la réalité virtuelle, la réalité augmentée ou la réalité mixte.",
+    "En dehors de mes études, je suis propriétaire d’une chaîne YouTube où je crée des clips musicaux en hommage à différents artistes autour du globe. Cette activité me permet d’exprimer à 100% mes champs créatifs et de réaliser des projets de A à Z, du storyboard jusqu’à la post-production. Je n’utilise aucun assets extérieur afin de garder l’authenticité de mon travail.",
+    "J’essaie toujours de travailler de manière efficace et productif afin de mieux optimiser mon temps."
   ],
   "contact": [
     {
@@ -45,7 +42,7 @@ J’essaie toujours de travailler de manière efficace et productif afin de mieu
     "photo": "/assets/images/portrait.png",
     "nom": "Chevalier",
     "prenom": "Philippe",
-    "activite":"Digital Designer based in Paris",
+    "activite": "Digital Designer based in Paris",
     "resaux": [
       {
         "icon": "/assets/icons/contact/svg_behance.svg",
@@ -83,42 +80,42 @@ J’essaie toujours de travailler de manière efficace et productif afin de mieu
     {
       "icon": "/assets/icons/logiciel/photoshop.svg",
       "name": "Photoshop",
-      "lien" : "https://www.adobe.com/fr/products/photoshop.html"
+      "lien": "https://www.adobe.com/fr/products/photoshop.html"
     },
     {
       "icon": "/assets/icons/logiciel/adobeIllustrator.svg",
       "name": "Illustrator",
-      "lien" : "https://www.adobe.com/fr/products/illustrator.html"
+      "lien": "https://www.adobe.com/fr/products/illustrator.html"
     },
     {
       "icon": "/assets/icons/logiciel/blender.svg",
       "name": "Blender",
-      "lien" : "https://www.blender.org/"
+      "lien": "https://www.blender.org/"
     },
     {
       "icon": "/assets/icons/logiciel/afterEffect.svg",
       "name": "After effect",
-      "lien" : "https://www.adobe.com/fr/products/aftereffects.html"
+      "lien": "https://www.adobe.com/fr/products/aftereffects.html"
     },
     {
       "icon": "/assets/icons/logiciel/adobeXd.svg",
       "name": "Adobe XD",
-      "lien" : "https://helpx.adobe.com/fr/xd/get-started.html"
+      "lien": "https://helpx.adobe.com/fr/xd/get-started.html"
     },
     {
       "icon": "/assets/icons/logiciel/figma.svg",
       "name": "Figma",
-      "lien" : "https://www.figma.com/fr/"
+      "lien": "https://www.figma.com/fr/"
     },
     {
       "icon": "/assets/icons/logiciel/premierePro.svg",
       "name": "Première Pro",
-      "lien" : "https://www.adobe.com/fr/products/premiere.html"
+      "lien": "https://www.adobe.com/fr/products/premiere.html"
     },
     {
       "icon": "/assets/icons/logiciel/adobeIdesing.svg",
       "name": "Adobe Id",
-      "lien" : "https://www.adobe.com/fr/products/indesign.html"
+      "lien": "https://www.adobe.com/fr/products/indesign.html"
     }
   ]
 }
