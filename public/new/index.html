@@ -21,6 +21,42 @@
   height: 100%;
   border: none;
 }
+  
+  .projects {
+  background: #000;
+  color: white;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+}
+  
+.projects h2 {
+  font-family: sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.grid img:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
 </style>
 <head>
   <meta charset="UTF-8">
@@ -34,6 +70,13 @@
       <video src="vid2.mp4" autoplay loop muted playsinline></video>
       <video src="vid3.mp4" autoplay loop muted playsinline></video>
     </div>
+<section class="projects">
+  <h2>Selected Works</h2>
+  <div class="grid" id="behance-grid">
+    <!-- Les miniatures Behance s’ajouteront ici -->
+  </div>
+</section>
+
                  <!-- <video id="reel" autoplay loop muted playsinline></video>
                       
                       <script>
