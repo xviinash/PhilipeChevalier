@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
+<style>
+  .video-wall {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+.video-wall video {
+  flex: 1;
+  object-fit: cover;
+  height: 100vh;
+}
+</style>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,5 +19,10 @@
 </head>
 <body style="background:#000; color:#fff; display:flex; align-items:center; justify-content:center; height:100vh;">
   <h1>Work in progress 👀</h1>
+    <div class="video-wall">
+      <video src="vid1.mp4" autoplay loop muted playsinline></video>
+      <video src="vid2.mp4" autoplay loop muted playsinline></video>
+      <video src="vid3.mp4" autoplay loop muted playsinline></video>
+    </div>
 </body>
 </html>
