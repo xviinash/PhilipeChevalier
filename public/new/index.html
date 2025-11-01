@@ -24,5 +24,21 @@
       <video src="vid2.mp4" autoplay loop muted playsinline></video>
       <video src="vid3.mp4" autoplay loop muted playsinline></video>
     </div>
+                        <video id="reel" autoplay loop muted playsinline></video>
+                      
+                      <script>
+                      const videos = ["vid1.mp4", "vid2.mp4", "vid3.mp4"];
+                      let current = 0;
+                      const reel = document.getElementById("reel");
+                      
+                      function nextVideo() {
+                        current = (current + 1) % videos.length;
+                        reel.src = videos[current];
+                        reel.play();
+                      }
+                      
+                      reel.src = videos[0];
+                      setInterval(nextVideo, 7000); // change toutes les 7 secondes
+                      </script>
 </body>
 </html>
