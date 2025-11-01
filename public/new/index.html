@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
 <style>
-  html, body {
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden; /* évite le scroll */
-  background: black; /* sécurité si vidéo ne charge pas */
+  background: black;
+  color: white;
+  font-family: sans-serif;
 }
-  .video-wall {
+
+/* SECTION VIDÉOS */
+.video-wall {
   display: flex;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  position: relative;
+  position: relative; /* reste dans le flux */
 }
+
 .video-wall video {
   flex: 1;
   object-fit: cover;
@@ -22,25 +26,23 @@
   height: 100%;
   border: none;
 }
-  
-  .projects {
-  background: #000;
-  color: white;
+
+/* SECTION PROJETS */
+.projects {
+  background: black;
   padding: 5rem 2rem;
-  min-height: 100vh;
   position: relative;
   z-index: 2;
-}
-  
-.projects h2 {
-  font-family: sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  margin-bottom: 2rem;
-  text-align: center;
-  letter-spacing: 0.05em;
+  width: 100%;
 }
 
+.projects h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 0.1em;
+}
+
+/* GRILLE */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -51,15 +53,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 4px;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  display: block;
 }
-
-.grid img:hover {
-  transform: scale(1.05);
-  opacity: 0.8;
-}
-
 </style>
 <head>
   <meta charset="UTF-8">
