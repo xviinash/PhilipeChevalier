@@ -51,20 +51,24 @@
       font-weight: 400;
     }
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1rem;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0; /* aucune marge entre les items */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-    .grid img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
+.grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border: none;
+  border-radius: 0; /* aucune arrondie */
+}
+
   </style>
 </head>
 
