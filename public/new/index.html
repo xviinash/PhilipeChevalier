@@ -109,5 +109,28 @@
       <img src="thumb6.jpg" alt="">
     </div>
   </section>
+  <!-- Import Behance API-->
+          <script>
+        const BEHANCE_USER = "xviinash"; // ton nom d'utilisateur Behance
+        const API_KEY = "LDGQKFP7dsmkhIKUAGG67ChSDASj1cWD"; // clé API Adobe
+        const grid = document.querySelector(".grid");
+        
+        // Requête vers l'API Behance
+        fetch(`https://api.behance.net/v2/users/${BEHANCE_USER}/projects?api_key=${API_KEY}`)
+          .then(res => res.json())
+          .then(data => {
+            grid.innerHTML = ""; // vide la grille test
+            data.projects.forEach(project => {
+              const img = document.createElement("img");
+              img.src = project.covers["404"]; // miniature
+              img.alt = project.name;
+              img.loading = "lazy";
+              img.onclick = () => window.open(project.url, "_blank"); // clic = ouvre Behance
+              grid.appendChild(img);
+            });
+          })
+          .catch(err => console.error("Erreur Behance:", err));
+        </script>
+
 </body>
 </html>
